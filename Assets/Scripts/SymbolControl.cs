@@ -231,6 +231,7 @@ public class SymbolControl : MonoBehaviour
             }
             return;
         }
+        int Current = 0;
 
         if (timestamp < Time.time)
         {
@@ -248,6 +249,7 @@ public class SymbolControl : MonoBehaviour
                 if (Targets[i] == CenterTarget)
                 {
                     ActiveSymbol = Symbols[i];
+                    Current = i;
                 }
                // Symbols[i].transform.position = TargetsPos[which];
             }
@@ -260,11 +262,11 @@ public class SymbolControl : MonoBehaviour
         spintime -= Time.deltaTime;
         if (spintime < 0&&CanStop)
         {
-            if (ActiveSymbol._Symbol == StopTarget)
+            if (CenterTarget == Current)
             {
                 StopSpin();
-
             }
+           
         }
 
 

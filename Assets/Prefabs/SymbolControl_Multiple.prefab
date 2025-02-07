@@ -105,7 +105,7 @@ MonoBehaviour:
   IsTurbo: 0
   ActiveSymbols: 
   ActiveSymbol: {fileID: 0}
-  CenterTarget: 8
+  CenterTarget: 4
   StopTarget: 0
   Speed: 3000
   Rate: 0.04
