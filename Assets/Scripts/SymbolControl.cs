@@ -267,7 +267,7 @@ public class SymbolControl : MonoBehaviour
             {
                 StopSpin();
             }
-           
+
         }
 
 

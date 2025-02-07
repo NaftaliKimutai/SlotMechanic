@@ -103,7 +103,6 @@ public class PlayMan : MonoBehaviour
     public void Play()
     {
         ReceivedSymbols = true;
-        GameManager.Instance.IsGameStarted = true;
         for(int i = 0; i < spinningcontrols.Length; i++)
         {
             //spinningcontrols[i].Randomize();

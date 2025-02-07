@@ -15,4 +15,9 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
     }
+    public void StartGame()
+    {
+        IsGameStarted = true;
+        playMan.Play();
+    }
 }
