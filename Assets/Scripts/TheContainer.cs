@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class TheContainer : MonoBehaviour
 {
+    public Symbol ActiveSymbol;
     public GameObject ShowObj;
     public GameObject Spawned;
     private void Start()
     {
-        CreateSymbol(PlayController.instance.GetSymbol());
+        CreateSymbol(GameManager.Instance.playMan.GetSymbol());
     }
-    void CreateSymbol(GameObject ThePref)
+    public void CreateSymbol(GameObject ThePref)
     {
         if (Spawned)
         {

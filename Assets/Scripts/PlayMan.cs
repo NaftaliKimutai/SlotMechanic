@@ -1,23 +1,18 @@
 using UnityEngine;
 
-public class PlayController : MonoBehaviour
+public class PlayMan : MonoBehaviour
 {
-    public static PlayController instance;
-    public bool IsGameStarted;
-    public bool IsGameOver;
     public SymbolControl[] spinningcontrols;
+    public TheContainer[] AciveContainers;
     bool ReceivedSymbols;
     public GameObject[] SymbolsPref;
-    private void Awake()
-    {
-        instance = this;
-    }
+  
 
     void Update()
     {
-        if (IsGameStarted)
+        if (GameManager.Instance.IsGameStarted)
         {
-            if (!IsGameOver)
+            if (!GameManager.Instance.IsGameOver)
             {
                 bool isspin = false;
                 for (int i = 0; i < spinningcontrols.Length; i++)
@@ -49,8 +44,10 @@ public class PlayController : MonoBehaviour
 
                                     }
                                 }
+                                GameManager.Instance.resultMan.AssignResults();
+                                spinningcontrols[i].ActivateCanStop();
                             }
-                            spinningcontrols[i].CanStop = true;
+                            //spinningcontrols[i].CanStop = true;
 
 
                         }
@@ -91,9 +88,10 @@ public class PlayController : MonoBehaviour
                                     {
                                         spinningcontrols[i].IsFakeStop = true;
                                     }
+                                    spinningcontrols[i].ActivateCanStop();
                                 }
                                 
-                                spinningcontrols[i].CanStop = true;
+                               // spinningcontrols[i].CanStop = true;
 
                             }
                         }
@@ -105,7 +103,7 @@ public class PlayController : MonoBehaviour
     public void Play()
     {
         ReceivedSymbols = true;
-        IsGameStarted = true;
+        GameManager.Instance.IsGameStarted = true;
         for(int i = 0; i < spinningcontrols.Length; i++)
         {
             //spinningcontrols[i].Randomize();
@@ -116,5 +114,15 @@ public class PlayController : MonoBehaviour
     public GameObject GetSymbol()
     {
         return SymbolsPref[Random.Range(0, SymbolsPref.Length)];
+    }
+    public void AssignSymbol(TheContainer Which,Symbol thesymbol)
+    {
+       for(int i = 0; i < SymbolsPref.Length; i++)
+        {
+            if(thesymbol == SymbolsPref[i].GetComponent<TheSymbol>()._Symbol)
+            {
+                Which.CreateSymbol(SymbolsPref[i]);
+            }
+        }
     }
 }

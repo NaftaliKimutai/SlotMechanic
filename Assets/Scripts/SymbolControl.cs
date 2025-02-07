@@ -20,6 +20,7 @@ public enum Symbol
 }
 public class SymbolControl : MonoBehaviour
 {
+    public TheContainer[] ActiveContainers;
     public bool IsTest;
     bool emptyavailable;
     public Symbol TestSymbol;
@@ -270,5 +271,10 @@ public class SymbolControl : MonoBehaviour
         }
 
 
+    }
+    public void ActivateCanStop()
+    {
+      
+        CanStop = true;
     }
 }
