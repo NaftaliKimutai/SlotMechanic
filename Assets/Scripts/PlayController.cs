@@ -103,7 +103,7 @@ public class PlayController : MonoBehaviour
         IsGameStarted = true;
         for(int i = 0; i < spinningcontrols.Length; i++)
         {
-            //spinningcontrols[i].Randomize();
+            spinningcontrols[i].Randomize();
             spinningcontrols[i].Spin();
         }
     }

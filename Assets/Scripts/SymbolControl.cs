@@ -20,6 +20,7 @@ public enum Symbol
 public class SymbolControl : MonoBehaviour
 {
     public bool IsTest;
+    bool emptyavailable;
     public Symbol TestSymbol;
     public bool IsFakeStop;
     public bool IsTurbo;
@@ -52,6 +53,10 @@ public class SymbolControl : MonoBehaviour
         TargetsPos = new Vector3[Symbols.Length];
         for(int i = 0; i < Symbols.Length; i++)
         {
+            if (Symbols[i]._Symbol == Symbol.None)
+            {
+                emptyavailable = true;
+            }
             Targets[i] = i;
             TargetsPos[i] = Symbols[i].transform.localPosition;
             if (!ActiveSymbols.Contains(Symbols[i]._Symbol))
@@ -100,15 +105,22 @@ public class SymbolControl : MonoBehaviour
         }
         else {
             IsFakeStop = false;
-            int rand = Random.Range(0, 10);
-            if (rand != 5)
+            if (emptyavailable)
             {
-                StopTarget = ActiveSymbols[Random.Range(0, ActiveSymbols.Count)];
+                int rand = Random.Range(0, 10);
+                if (rand != 5)
+                {
+                    StopTarget = ActiveSymbols[Random.Range(0, ActiveSymbols.Count)];
 
+                }
+                else
+                {
+                    StopTarget = Symbol.None;
+                }
             }
             else
             {
-                StopTarget = Symbol.None;
+                StopTarget = ActiveSymbols[Random.Range(0, ActiveSymbols.Count)];
             }
 
         }
