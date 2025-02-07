@@ -15,7 +15,8 @@ public enum Symbol
     Win_5x,
     Win_10x,
     Win_Extra_1,
-    Win_Extra_2
+    Win_Extra_2,
+    Container
 }
 public class SymbolControl : MonoBehaviour
 {
@@ -49,6 +50,7 @@ public class SymbolControl : MonoBehaviour
     float fakestimesoundtimestamp;
     private void Start()
     {
+        StopTarget = Symbols[CenterTarget]._Symbol;
         Targets = new int[Symbols.Length];
         TargetsPos = new Vector3[Symbols.Length];
         for(int i = 0; i < Symbols.Length; i++)

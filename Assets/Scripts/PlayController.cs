@@ -2,11 +2,16 @@ using UnityEngine;
 
 public class PlayController : MonoBehaviour
 {
+    public static PlayController instance;
     public bool IsGameStarted;
     public bool IsGameOver;
     public SymbolControl[] spinningcontrols;
     bool ReceivedSymbols;
-
+    public GameObject[] SymbolsPref;
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Update()
     {
@@ -103,8 +108,13 @@ public class PlayController : MonoBehaviour
         IsGameStarted = true;
         for(int i = 0; i < spinningcontrols.Length; i++)
         {
-            spinningcontrols[i].Randomize();
+            //spinningcontrols[i].Randomize();
             spinningcontrols[i].Spin();
         }
+    }
+
+    public GameObject GetSymbol()
+    {
+        return SymbolsPref[Random.Range(0, SymbolsPref.Length)];
     }
 }
