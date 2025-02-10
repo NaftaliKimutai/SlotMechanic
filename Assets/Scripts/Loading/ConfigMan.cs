@@ -24,6 +24,17 @@ public class ConfigMan : MonoBehaviour
        
         DontDestroyOnLoad(this);
         Instance = this;
+        if (!Application.isEditor)
+        {
+            TheDebugObj.SetActive(false);
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            TheDebugObj.SetActive(true);
+        }
     }
     public void ToggleDemoMode(Toggle which)
     {
