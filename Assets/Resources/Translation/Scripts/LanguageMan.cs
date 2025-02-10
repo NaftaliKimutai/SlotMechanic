@@ -110,6 +110,13 @@ public class LanguageMan : MonoBehaviour
 
         SetExtraLanguage();
     }
+    public void _SetLanguage(Extra_TheLanguage _Language)
+    {
+        ActiveLanguage = _Language;
+        RefreshAll();
+
+        SetExtraLanguage();
+    }
     void SetExtraLanguage()
     {
         if (!Extra_LanguageMan.instance)

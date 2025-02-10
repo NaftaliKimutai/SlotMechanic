@@ -81,7 +81,7 @@ public class LoadingScreen : MonoBehaviour
             }
         }
         // LoadingText.text ="Loading...."+ Mathf.RoundToInt(LoadingSlider.fillAmount*100).ToString()+"%";
-        UpdateTextArray(LoadingText, "Loading...." + Mathf.RoundToInt(LoadingSlider[0].value * 100).ToString() + "%");
+        UpdateTextArray(LoadingText, Mathf.RoundToInt(LoadingSlider[0].value * 100).ToString() + "%");
     }
     public void ToggleSkip()
     {
@@ -148,6 +148,7 @@ public class LoadingScreen : MonoBehaviour
 
         FinalAnim.enabled = true;
         GameManager.Instance.FetchConfigData();
+        ConfigMan.Instance.TheDebugObj.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         SceneManager.UnloadSceneAsync(0);
 

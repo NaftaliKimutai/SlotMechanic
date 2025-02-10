@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class ConfigMan : MonoBehaviour
 {
     public static ConfigMan Instance;
@@ -10,6 +11,13 @@ public class ConfigMan : MonoBehaviour
     public string CustomerId;
     public string GameId;
     public string ClientId;
+
+
+    [Header("Debug Canvas")]
+    public GameObject TheDebugObj;
+    public TMP_InputField PlayerIdText;
+    public TMP_InputField GameIdText;
+    public TMP_InputField ClientIdText;
 
     void Start()
     {
@@ -52,6 +60,21 @@ public class ConfigMan : MonoBehaviour
     {
         ClientId= Id;
         Debug.Log("TheFetchedClientIdIs_" + ClientId);
+    }
+    public void CheckTextInput()
+    {
+        if (!string.IsNullOrEmpty(PlayerIdText.text))
+        {
+            PassCustomerId(PlayerIdText.text);
+        }
+        if (!string.IsNullOrEmpty(GameIdText.text))
+        {
+           PassGameId(GameIdText.text);
+        }
+        if (!string.IsNullOrEmpty(ClientIdText.text))
+        {
+            PassClientId(ClientIdText.text);
+        }
     }
 
 

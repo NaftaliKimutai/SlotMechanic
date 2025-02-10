@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 287631330}
   - component: {fileID: 287631332}
   - component: {fileID: 287631331}
+  - component: {fileID: 287631333}
   m_Layer: 5
   m_Name: WinText
   m_TagString: Untagged
@@ -311,8 +312,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144, y: -0.000015258789}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -240.6863, y: -0.000015258789}
+  m_SizeDelta: {x: 393.3726, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287631331
 MonoBehaviour:
@@ -365,7 +366,7 @@ MonoBehaviour:
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 1
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 4
@@ -413,6 +414,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287631329}
   m_CullTransparentMesh: 1
+--- !u!114 &287631333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287631329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myText: {fileID: 287631331}
+  CODE: L_9
 --- !u!1 &318603815
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,6 +3077,7 @@ Transform:
   - {fileID: 2002856210}
   - {fileID: 14043334}
   - {fileID: 492272354}
+  - {fileID: 1585067797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878164481
@@ -4592,6 +4608,753 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561494495}
   m_CullTransparentMesh: 1
+--- !u!1 &1585067796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585067797}
+  - component: {fileID: 1585067798}
+  m_Layer: 0
+  m_Name: LanguageMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585067797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585067796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832768031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585067798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585067796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07d014daa18144b9b4f1224d72fdce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveLanguage: 4
+  All_Game_Text: 
+  Data:
+  - CODE
+  - ENGLISH
+  - CHINESE
+  - JAPAN
+  - SPANISH
+  - SWAHILI
+  - "DANISH\r"
+  - L_2
+  - Hello
+  - "\u4F60\u597D"
+  - "\u3053\u3093\u306B\u3061\u306F"
+  - Hola
+  - Habari
+  - "Hej\r"
+  - L_3
+  - Loading....
+  - "\u8F09\u5165\u4E2D...."
+  - "\u8AAD\u307F\u8FBC\u307F\u4E2D...."
+  - Cargando....
+  - Inapakia....
+  - "Indl\xE6ser...\r"
+  - L_4
+  - Continue
+  - "\u7E7C\u7E8C"
+  - "\u7D9A\u304F"
+  - Continuar
+  - Endelea
+  - "Forts\xE6tte\r"
+  - L_5
+  - Don't show next time
+  - "\u4E0B\u6B21\u4E0D\u518D\u986F\u793A"
+  - "\u6B21\u56DE\u306F\u8868\u793A\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044"
+  - "No mostrar la pr\xF3xima vez"
+  - Usionyeshe wakati ujao
+  - "Vis ikke n\xE6ste gang\r"
+  - L_6
+  - Any 3 Symbol to win.
+  - "\u4EFB 3 \u500B\u7B26\u865F\u5373\u53EF\u7372\u52DD\u3002"
+  - "\u4EFB\u610F\u306E 3 \u30B7\u30F3\u30DC\u30EB\u3067\u52DD\u5229\u3057\u307E\u3059\u3002"
+  - "Cualquier 3 s\xEDmbolos para ganar."
+  - Alama yoyote 3 kushinda.
+  - "Ethvert 3 symbol for at vinde.\r"
+  - L_7
+  - Special wheel,A variety of effects
+  - "\u7279\u6B8A\u8F2A\u5B50\uFF0C\u591A\u7A2E\u6548\u679C"
+  - "\u7279\u6B8A\u30DB\u30A4\u30FC\u30EB\u3001\u591A\u5F69\u306A\u30A8\u30D5\u30A7\u30AF\u30C8"
+  - Rueda especial, una variedad de efectos.
+  - Gurudumu maalum, athari mbalimbali
+  - "Specielt hjul, en r\xE6kke effekter\r"
+  - L_8
+  - 'Volatility:'
+  - "\u63EE\u767C\u6027\uFF1A"
+  - "\u30DC\u30E9\u30C6\u30A3\u30EA\u30C6\u30A3:"
+  - 'Volatilidad:'
+  - 'Tete:'
+  - "Volatilitet:\r"
+  - L_9
+  - WIN
+  - "\u8D0F"
+  - "\u52DD\u3064"
+  - GANAR
+  - SHINDA
+  - "VINDE\r"
+  - L_10
+  - PLAY
+  - "\u73A9"
+  - "\u904A\u3076"
+  - JUGAR
+  - CHEZA
+  - "SPIL\r"
+  - L_11
+  - 'Balance:'
+  - "\u5E73\u8861\uFF1A"
+  - "\u30D0\u30E9\u30F3\u30B9\uFF1A"
+  - 'Balance:'
+  - 'Salio:'
+  - "Balance:\r"
+  - L_12
+  - 'Bet:'
+  - "\u8CED\u6CE8\uFF1A"
+  - "\u30D9\u30C3\u30C8\uFF1A"
+  - 'Apuesta:'
+  - 'Dau:'
+  - "V\xE6dde:\r"
+  - L_13
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_14
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_15
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_16
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_17
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_18
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_19
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_20
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_21
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_22
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_23
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_24
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_25
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_26
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_27
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_28
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_29
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_30
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_31
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_32
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_33
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_34
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_35
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_36
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_37
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_38
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_39
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_40
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_41
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_42
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_43
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_44
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_45
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_46
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_47
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_48
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_49
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_50
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_51
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_52
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_53
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_54
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_55
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_56
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_57
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_58
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_59
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_60
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_61
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_62
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_63
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_64
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_65
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_66
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_67
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_68
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_69
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_70
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_71
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_72
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_73
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_74
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_75
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_76
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_77
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_78
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_79
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_80
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_81
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_82
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_83
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_84
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_85
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_86
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_87
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_88
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_89
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_90
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_91
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_92
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_93
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_94
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_95
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_96
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_97
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_98
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_99
+  - 
+  - 
+  - 
+  - 
+  - 
+  - "\r"
+  - L_100
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1693306592
 GameObject:
   m_ObjectHideFlags: 0
@@ -5138,6 +5901,7 @@ MonoBehaviour:
   MaxMultiplier: 
   Customer_Id: 4
   Game_Id: 3
+  Client_id: 12345
   IsTest: 0
   TransactionsText:
   - {fileID: 506074800}
@@ -5150,6 +5914,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 734164886}
     m_Modifications:
+    - target: {fileID: 677639712398241148, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
+      propertyPath: CODE
+      value: L_11
+      objectReference: {fileID: 0}
     - target: {fileID: 1314335834731663338, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5230,6 +5998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2321431288826828155, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
+      propertyPath: CODE
+      value: L_12
+      objectReference: {fileID: 0}
     - target: {fileID: 5351069756902180563, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
       propertyPath: m_Name
       value: Play
@@ -5245,6 +6017,10 @@ PrefabInstance:
     - target: {fileID: 6655675194641798269, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlaceBet, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851874629366391867, guid: 79e65577cc31a4ddfa26013da6a411fb, type: 3}
+      propertyPath: CODE
+      value: L_10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
