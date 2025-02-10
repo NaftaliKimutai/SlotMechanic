@@ -134,7 +134,6 @@ public class PlayMan : MonoBehaviour
     public void UpdateWin(float Amount)
     {
         WinAmount = Amount;
-        WinText.text = Amount.ToString("n2");
     }
 
     void CalculateWinnings()
@@ -301,7 +300,8 @@ public class PlayMan : MonoBehaviour
 
         }
         
-      
+        WinText.text = WinAmount.ToString("n2");
+
         Debug.Log("End");
 
     }
