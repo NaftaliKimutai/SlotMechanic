@@ -7,14 +7,10 @@ public class ResultData
 }
 public class ResultMan : MonoBehaviour
 {
+    public bool IsTest;
     public ResultData[] TheResults;
     public void AssignResults()
     {
-        if (GameManager.Instance.IsDemo)
-        {
-            RandomizeResults();
-        }
-
         for(int i = 0; i < TheResults.Length; i++)
         {
             for(int r = 0; r < TheResults[i].Results.Length; r++)
@@ -28,6 +24,8 @@ public class ResultMan : MonoBehaviour
     }
     public void RandomizeResults()
     {
+        if (IsTest)
+            return;
         for (int i = 0; i < TheResults.Length; i++)
         {
             for (int r = 0; r < TheResults[i].Results.Length; r++)
