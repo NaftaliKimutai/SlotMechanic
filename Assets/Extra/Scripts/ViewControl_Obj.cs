@@ -8,10 +8,12 @@ public class ViewControl_Obj : MonoBehaviour
     public Transform Potrait;
     public void SetPotrait()
     {
+#if UNITY_EDITOR
         if (!Application.isPlaying && PrefabUtility.IsPartOfAnyPrefab(TheObj.transform.parent))
         {
             return;
         }
+#endif
         LandScape.gameObject.SetActive(false);
         Potrait.gameObject.SetActive(true);
         if (TheObj)
@@ -27,10 +29,12 @@ public class ViewControl_Obj : MonoBehaviour
     }
     public void SetLandScape()
     {
+#if UNITY_EDITOR
         if (!Application.isPlaying && PrefabUtility.IsPartOfAnyPrefab(TheObj.transform.parent))
         {
             return;
         }
+#endif
         LandScape.gameObject.SetActive(true);
         Potrait.gameObject.SetActive(false);
         if (TheObj)

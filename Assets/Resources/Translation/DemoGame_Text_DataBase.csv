@@ -10,11 +10,11 @@ L_9	WIN	贏	勝つ	GANAR	SHINDA	VINDE
 L_10	PLAY	玩	遊ぶ	JUGAR	CHEZA	SPIL
 L_11	Balance:	平衡：	バランス：	Balance:	Salio:	Balance:
 L_12	Bet:	賭注：	ベット：	Apuesta:	Dau:	Vædde:
-L_13						
-L_14						
-L_15						
-L_16						
-L_17						
+L_13	System	系統	システム	Sistema	Mfumo	System
+L_14	You have been idle for too long,please login again.	您已經閒置太久，請重新登入。	アイドル状態が長すぎます。再度ログインしてください。	Ha estado inactivo durante demasiado tiempo, inicie sesión nuevamente.	Umekuwa bila kufanya kitu kwa muda mrefu sana, tafadhali ingia tena.	Du har været inaktiv for længe, ​​log venligst ind igen.
+L_15	Insufficient balance.	餘額不足。	バランスが不十分です。	Saldo insuficiente.	Usawa usiotosha.	Utilstrækkelig balance.
+L_16	Confirm	確認	確認する	Confirmar	Thibitisha	Bekræfte
+L_17	Server connection interrupted	伺服器連線中斷	サーバー接続が中断されました	Conexión del servidor interrumpida	Muunganisho wa seva umekatizwa	Serverforbindelse afbrudt
 L_18						
 L_19						
 L_20						

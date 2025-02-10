@@ -1978,6 +1978,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1745009279}
     m_Modifications:
+    - target: {fileID: 207621556019457886, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 667883950572040438, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 895274130848276277, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878872095868550793, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2250519747343569226, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2916038598743256233, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260420067961856726, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668354228322026190, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035368057826635021, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639750072533906085, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_13
+      objectReference: {fileID: 0}
     - target: {fileID: 6013823841912422554, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2057,6 +2097,14 @@ PrefabInstance:
     - target: {fileID: 6013823841912422554, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706913255056047322, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264919572698263890, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
+      propertyPath: CODE
+      value: L_16
       objectReference: {fileID: 0}
     - target: {fileID: 8013859422182843633, guid: 6a641862a7cbd4b2c93b57f3cb2ca788, type: 3}
       propertyPath: m_Name
@@ -4740,40 +4788,40 @@ MonoBehaviour:
   - 'Dau:'
   - "V\xE6dde:\r"
   - L_13
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - System
+  - "\u7CFB\u7D71"
+  - "\u30B7\u30B9\u30C6\u30E0"
+  - Sistema
+  - Mfumo
+  - "System\r"
   - L_14
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - You have been idle for too long,please login again.
+  - "\u60A8\u5DF2\u7D93\u9592\u7F6E\u592A\u4E45\uFF0C\u8ACB\u91CD\u65B0\u767B\u5165\u3002"
+  - "\u30A2\u30A4\u30C9\u30EB\u72B6\u614B\u304C\u9577\u3059\u304E\u307E\u3059\u3002\u518D\u5EA6\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - "Ha estado inactivo durante demasiado tiempo, inicie sesi\xF3n nuevamente."
+  - Umekuwa bila kufanya kitu kwa muda mrefu sana, tafadhali ingia tena.
+  - "Du har v\xE6ret inaktiv for l\xE6nge, \u200B\u200Blog venligst ind igen.\r"
   - L_15
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - Insufficient balance.
+  - "\u9918\u984D\u4E0D\u8DB3\u3002"
+  - "\u30D0\u30E9\u30F3\u30B9\u304C\u4E0D\u5341\u5206\u3067\u3059\u3002"
+  - Saldo insuficiente.
+  - Usawa usiotosha.
+  - "Utilstr\xE6kkelig balance.\r"
   - L_16
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - Confirm
+  - "\u78BA\u8A8D"
+  - "\u78BA\u8A8D\u3059\u308B"
+  - Confirmar
+  - Thibitisha
+  - "Bekr\xE6fte\r"
   - L_17
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - Server connection interrupted
+  - "\u4F3A\u670D\u5668\u9023\u7DDA\u4E2D\u65B7"
+  - "\u30B5\u30FC\u30D0\u30FC\u63A5\u7D9A\u304C\u4E2D\u65AD\u3055\u308C\u307E\u3057\u305F"
+  - "Conexi\xF3n del servidor interrumpida"
+  - Muunganisho wa seva umekatizwa
+  - "Serverforbindelse afbrudt\r"
   - L_18
   - 
   - 

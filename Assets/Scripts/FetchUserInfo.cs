@@ -16,8 +16,8 @@ public class FetchUserInfo : MonoBehaviour
    public void Test()
     {
         SetUserId(Test_PlayerId);
-        SetGameId(Test_GameId);
-        SetClientId(Test_ClientId);
+        SetGameId(int.Parse(Test_GameId));
+        SetClientId(int.Parse(Test_ClientId));
     }
    
     public void SetUserId(string userId)
@@ -26,7 +26,7 @@ public class FetchUserInfo : MonoBehaviour
        // Debug.Log("Received userId: " + userId);
       //  ConfigMan.ConfigInstance.PassCustomerId(userId);
         configMan.PassCustomerId(userId);
-       configMan.PlayerIdText.text = "PlayerId:" + userId;
+       configMan.PlayerIdText.text = userId;
 
         // Use the userId in your game logic
     }
@@ -46,19 +46,19 @@ public class FetchUserInfo : MonoBehaviour
             DemoToggle.isOn = configMan.IsDemo;
         }
     }
-    public void SetGameId(string id)
+    public void SetGameId(int id)
     {
 
         //Debug.Log("TheGameId: " + id.ToString());
         configMan.PassGameId(id.ToString());
-       configMan.GameIdText.text = "GameId:" + id;
+       configMan.GameIdText.text =  id.ToString();
 
     }
-    public void SetClientId(string id)
+    public void SetClientId(int id)
     {
         //Debug.Log("TheGameId: " + id.ToString());
         configMan.PassClientId(id.ToString());
-       configMan.ClientIdText.text = "ClientId:" + id;
+       configMan.ClientIdText.text = id.ToString();
 
     }
     public void SetLanguage(string id)
