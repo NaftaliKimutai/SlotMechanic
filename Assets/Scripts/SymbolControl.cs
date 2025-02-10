@@ -263,7 +263,7 @@ public class SymbolControl : MonoBehaviour
         spintime -= Time.deltaTime;
         if (spintime < 0&&CanStop)
         {
-            if (CenterTarget == Current)
+            if (CenterTarget == Current||ActiveSymbol._Symbol==Symbol.None&&StopTarget==Symbol.None)
             {
                 StopSpin();
             }

@@ -123,5 +123,7 @@ public class PlayMan : MonoBehaviour
                 Which.CreateSymbol(SymbolsPref[i]);
             }
         }
+       
+
     }
 }

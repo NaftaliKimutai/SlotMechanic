@@ -14,7 +14,9 @@ public class ResultMan : MonoBehaviour
         {
             for(int r = 0; r < TheResults[i].Results.Length; r++)
             {
-                GameManager.Instance.playMan.AssignSymbol(TheResults[i].symbolControl.ActiveContainers[r],
+                TheResults[i].symbolControl.StopTarget = TheResults[i].Results[r];
+
+                    GameManager.Instance.playMan.AssignSymbol(TheResults[i].symbolControl.ActiveContainers[r],
                   TheResults[i].Results[r]);
             }
         }
