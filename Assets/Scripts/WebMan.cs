@@ -112,6 +112,7 @@ public class WebMan : MonoBehaviour
     public string MaxMultiplier;
     public string Customer_Id = "4";
     public string Game_Id = "1234";
+    public string Client_id = "12345";
     public bool IsTest;
     public TMP_Text[] TransactionsText;
     public void ManualStart()
@@ -287,6 +288,7 @@ public class WebMan : MonoBehaviour
         GameInfo Data = new GameInfo();
         //Data.game_id = "crazy-seven";
         Data.game_id = Game_Id;
+        Data.client_id = Client_id;
         Data.stake_amount = GameManager.Instance.playMan.BetAmount;
         // string theid = UnityEngine.Random.Range(100, 10000000).ToString();
         Data.bet_id = placeBet.BetData.bet_id;

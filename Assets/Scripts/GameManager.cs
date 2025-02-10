@@ -26,13 +26,41 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        SetUp();
+        if (!ConfigMan.Instance)
+        {
+            webMan.ManualStart();
+        }
         OpenMenu();
+
     }
-    void SetUp()
+    public void FetchConfigData()
     {
-        webMan.ManualStart();
+        if (ConfigMan.Instance)
+        {
+            IsDemoMode = ConfigMan.Instance.IsDemo;
+            if (ConfigMan.Instance.ReceivedCustomerId)
+            {
+                webMan.Customer_Id = ConfigMan.Instance.CustomerId.ToString();
+                if (!string.IsNullOrEmpty(ConfigMan.Instance.GameId))
+                {
+                    webMan.Game_Id = ConfigMan.Instance.GameId;
+                }
+                if (!string.IsNullOrEmpty(ConfigMan.Instance.ClientId))
+                {
+                    webMan.Client_id = ConfigMan.Instance.ClientId;
+                }
+
+            }
+            webMan.ManualStart();
+
+            if (IsDemoMode)
+            {
+                ExtraMan.Instance.gameObject.SetActive(false);
+            }
+
+        }
     }
+    
     public void StartGame()
     {
         IsGameStarted = true;
