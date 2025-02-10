@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEditor;
 public class ViewControl_Obj : MonoBehaviour
 {
     public Transform TheObj;
@@ -8,10 +8,15 @@ public class ViewControl_Obj : MonoBehaviour
     public Transform Potrait;
     public void SetPotrait()
     {
+        if (!Application.isPlaying && PrefabUtility.IsPartOfAnyPrefab(TheObj.transform.parent))
+        {
+            return;
+        }
         LandScape.gameObject.SetActive(false);
         Potrait.gameObject.SetActive(true);
         if (TheObj)
         {
+            
             TheObj.transform.SetParent(Potrait);
             TheObj.transform.SetAsFirstSibling();
             TheObj.transform.localPosition = Vector3.zero;
@@ -22,6 +27,10 @@ public class ViewControl_Obj : MonoBehaviour
     }
     public void SetLandScape()
     {
+        if (!Application.isPlaying && PrefabUtility.IsPartOfAnyPrefab(TheObj.transform.parent))
+        {
+            return;
+        }
         LandScape.gameObject.SetActive(true);
         Potrait.gameObject.SetActive(false);
         if (TheObj)

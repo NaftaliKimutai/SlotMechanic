@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class PlayMan : MonoBehaviour
 {
     public SymbolControl[] spinningcontrols;
@@ -9,6 +10,11 @@ public class PlayMan : MonoBehaviour
     public bool IsRespin;
     public float BetAmount;
     public float WinAmount;
+    public TMP_Text WinText;
+    private void Start()
+    {
+        ResetPlay();
+    }
 
     void Update()
     {
@@ -92,6 +98,7 @@ public class PlayMan : MonoBehaviour
     {
         ReceivedSymbols = false;
         WinAmount = 0;
+        WinText.text =WinAmount.ToString("n2");
     }
     public void Play()
     {
@@ -127,6 +134,7 @@ public class PlayMan : MonoBehaviour
     public void UpdateWin(float Amount)
     {
         WinAmount = Amount;
+        WinText.text = Amount.ToString("n2");
     }
 
     void CalculateWinnings()
