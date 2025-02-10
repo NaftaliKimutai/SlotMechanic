@@ -7,7 +7,7 @@ public class TheContainer : MonoBehaviour
     public GameObject Spawned;
     private void Start()
     {
-        CreateSymbol(GameManager.Instance.playMan.GetSymbol());
+        CreateSymbol(GetComponentInParent<SymbolControl>().GetSymbol());
     }
     public void CreateSymbol(GameObject ThePref)
     {

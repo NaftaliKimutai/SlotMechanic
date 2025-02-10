@@ -20,6 +20,7 @@ public enum Symbol
 }
 public class SymbolControl : MonoBehaviour
 {
+    public GameObject[] SymbolsPref;
     public TheContainer[] ActiveContainers;
     public bool IsTest;
     bool emptyavailable;
@@ -98,6 +99,59 @@ public class SymbolControl : MonoBehaviour
         }
         
     }
+    public GameObject GetSymbol()
+    {
+        return SymbolsPref[Random.Range(0, SymbolsPref.Length)];
+    }
+    public void AssignSymbol(TheContainer Which, Symbol thesymbol)
+    {
+        for (int i = 0; i < SymbolsPref.Length; i++)
+        {
+            if (thesymbol == SymbolsPref[i].GetComponent<TheSymbol>()._Symbol)
+            {
+                Which.CreateSymbol(SymbolsPref[i]);
+            }
+        }
+
+
+    }
+    public Symbol GetRandomSymbol()
+    {
+        bool emptyavailable = false;
+        for (int i = 0; i < SymbolsPref.Length; i++)
+        {
+            if (SymbolsPref[i].GetComponent<TheSymbol>()._Symbol == Symbol.None)
+            {
+                emptyavailable = true;
+                break;
+            }
+        }
+        for (int i = 0; i < ActiveSymbols.Count; i++)
+        {
+            if (ActiveSymbols[i] == Symbol.None)
+            {
+                emptyavailable = true;
+                break;
+            }
+        }
+        if (emptyavailable)
+        {
+            int rand = Random.Range(0, 10);
+            if (rand != 5)
+            {
+                return SymbolsPref[Random.Range(0, SymbolsPref.Length)].GetComponent<TheSymbol>()._Symbol;
+
+            }
+            else
+            {
+                return Symbol.None;
+            }
+        }
+        else
+        {
+            return SymbolsPref[Random.Range(0, SymbolsPref.Length)].GetComponent<TheSymbol>()._Symbol;
+        }
+    }
     [ContextMenu("Randomize")]
     public void Randomize()
     {
@@ -129,6 +183,7 @@ public class SymbolControl : MonoBehaviour
         }
 
     }
+   
     [ContextMenu("Spin")]
     public void Spin()
     {
