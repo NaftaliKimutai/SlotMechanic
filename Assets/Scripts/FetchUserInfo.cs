@@ -87,5 +87,29 @@ public class FetchUserInfo : MonoBehaviour
         {
             LanguageMan.instance._SetLanguage(Extra_TheLanguage.Danish);
         }
+        else if (id == "th")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Thai);
+        }
+        else if (id == "id")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Indonesia);
+        }
+        else if (id == "vi")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Vietnam);
+        }
+        else if (id == "pt-PT")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Portoguese);
+        }
+        else if (id == "ko")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Korea);
+        }
+        else if (id == "my")
+        {
+            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Burmese);
+        }
     }
 }

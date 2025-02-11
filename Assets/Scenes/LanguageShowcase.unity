@@ -846,148 +846,290 @@ MonoBehaviour:
   - JAPAN
   - SPANISH
   - SWAHILI
-  - "DANISH\r"
+  - DANISH
+  - THAI
+  - INDONESIA
+  - VIETNAM
+  - PORTOGUESE
+  - KOREA
+  - "BURMESE\r"
   - L_2
   - Hello
   - "\u4F60\u597D"
   - "\u3053\u3093\u306B\u3061\u306F"
   - Hola
   - Habari
-  - "Hej\r"
+  - Hej
+  - "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35"
+  - Halo
+  - "Xin ch\xE0o"
+  - "Ol\xE1"
+  - "\uC548\uB155\uD558\uC138\uC694"
+  - "\u1019\u1004\u103A\u1039\u1002\u101C\u102C\u1015\u102B\r"
   - L_3
   - Loading....
   - "\u8F09\u5165\u4E2D...."
   - "\u8AAD\u307F\u8FBC\u307F\u4E2D...."
   - Cargando....
   - Inapakia....
-  - "Indl\xE6ser...\r"
+  - "Indl\xE6ser..."
+  - "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E42\u0E2B\u0E25\u0E14...."
+  - Memuat....
+  - "\u0110ang t\u1EA3i...."
+  - Carregando....
+  - "\uB85C\uB4DC \uC911...."
+  - "\u1010\u1004\u103A\u1014\u1031\u101E\u100A\u103A....\r"
   - L_4
   - Continue
   - "\u7E7C\u7E8C"
   - "\u7D9A\u304F"
   - Continuar
   - Endelea
-  - "Forts\xE6tte\r"
+  - "Forts\xE6tte"
+  - "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D"
+  - Melanjutkan
+  - "Ti\u1EBFp t\u1EE5c"
+  - Continuar
+  - "\uACC4\uC18D\uD558\uB2E4"
+  - "\u1006\u1000\u103A\u101B\u1014\u103A\r"
   - L_5
   - Don't show next time
   - "\u4E0B\u6B21\u4E0D\u518D\u986F\u793A"
   - "\u6B21\u56DE\u306F\u8868\u793A\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044"
   - "No mostrar la pr\xF3xima vez"
   - Usionyeshe wakati ujao
-  - "Vis ikke n\xE6ste gang\r"
+  - "Vis ikke n\xE6ste gang"
+  - "\u0E2D\u0E22\u0E48\u0E32\u0E41\u0E2A\u0E14\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B"
+  - Jangan tampilkan lain kali
+  - "\u0110\u1EEBng hi\u1EC3n th\u1ECB l\u1EA7n sau"
+  - "N\xE3o mostre da pr\xF3xima vez"
+  - "\uB2E4\uC74C\uBC88\uC5D0\uB294 \uD45C\uC2DC\uD558\uC9C0 \uC54A\uC74C"
+  - "\u1014\u1031\u102C\u1000\u103A\u1010\u1005\u103A\u1000\u103C\u102D\u1019\u103A
+    \u1019\u1015\u103C\u1015\u102B\u1014\u103E\u1004\u1037\u103A\r"
   - L_6
   - Any 3 Symbol to win.
   - "\u4EFB 3 \u500B\u7B26\u865F\u5373\u53EF\u7372\u52DD\u3002"
   - "\u4EFB\u610F\u306E 3 \u30B7\u30F3\u30DC\u30EB\u3067\u52DD\u5229\u3057\u307E\u3059\u3002"
   - "Cualquier 3 s\xEDmbolos para ganar."
   - Alama yoyote 3 kushinda.
-  - "Ethvert 3 symbol for at vinde.\r"
+  - Ethvert 3 symbol for at vinde.
+  - "3 \u0E2A\u0E31\u0E0D\u0E25\u0E31\u0E01\u0E29\u0E13\u0E4C\u0E43\u0E14 \u0E46
+    \u0E17\u0E35\u0E48\u0E08\u0E30\u0E0A\u0E19\u0E30"
+  - 3 Simbol apa pun untuk menang.
+  - "B\u1EA5t k\u1EF3 3 bi\u1EC3u t\u01B0\u1EE3ng n\xE0o c\u0169ng s\u1EBD gi\xE0nh
+    chi\u1EBFn th\u1EAFng."
+  - "Qualquer 3 s\xEDmbolos para ganhar."
+  - "\uC2B9\uB9AC\uD558\uB824\uBA74 \uAE30\uD638 3\uAC1C\uB97C \uC120\uD0DD\uD558\uC138\uC694."
+  - "\u1021\u1014\u102D\u102F\u1004\u103A\u101B\u101B\u1014\u103A \u101E\u1004\u103A\u1039\u1000\u1031\u1010
+    \u1043 \u1001\u102F\u104B\r"
   - L_7
   - Special wheel,A variety of effects
   - "\u7279\u6B8A\u8F2A\u5B50\uFF0C\u591A\u7A2E\u6548\u679C"
   - "\u7279\u6B8A\u30DB\u30A4\u30FC\u30EB\u3001\u591A\u5F69\u306A\u30A8\u30D5\u30A7\u30AF\u30C8"
   - Rueda especial, una variedad de efectos.
   - Gurudumu maalum, athari mbalimbali
-  - "Specielt hjul, en r\xE6kke effekter\r"
+  - "Specielt hjul, en r\xE6kke effekter"
+  - "\u0E27\u0E07\u0E25\u0E49\u0E2D\u0E1E\u0E34\u0E40\u0E28\u0E29 \u0E40\u0E2D\u0E1F\u0E40\u0E1F\u0E01\u0E15\u0E4C\u0E2B\u0E25\u0E32\u0E01\u0E2B\u0E25\u0E32\u0E22"
+  - Roda khusus, Berbagai efek
+  - "B\xE1nh xe \u0111\u1EB7c bi\u1EC7t, Nhi\u1EC1u hi\u1EC7u \u1EE9ng"
+  - Roda especial, uma variedade de efeitos
+  - "\uD2B9\uC218 \uD720, \uB2E4\uC591\uD55C \uD6A8\uACFC"
+  - "\u1021\u1011\u1030\u1038\u1018\u102E\u1038\u104A \u101E\u1000\u103A\u101B\u1031\u102C\u1000\u103A\u1019\u103E\u102F\u1019\u103B\u102D\u102F\u1038\u1005\u102F\u1036\r"
   - L_8
   - 'Volatility:'
   - "\u63EE\u767C\u6027\uFF1A"
   - "\u30DC\u30E9\u30C6\u30A3\u30EA\u30C6\u30A3:"
   - 'Volatilidad:'
   - 'Tete:'
-  - "Volatilitet:\r"
+  - 'Volatilitet:'
+  - "\u0E04\u0E27\u0E32\u0E21\u0E1C\u0E31\u0E19\u0E1C\u0E27\u0E19:"
+  - 'Keriangan:'
+  - "Bi\u1EBFn \u0111\u1ED9ng:"
+  - 'Volatilidade:'
+  - "\uD718\uBC1C\uC131:"
+  - "\u1019\u1010\u100A\u103A\u1004\u103C\u102D\u1019\u103A\u1019\u103E\u102F-\r"
   - L_9
   - WIN
   - "\u8D0F"
   - "\u52DD\u3064"
   - GANAR
   - SHINDA
-  - "VINDE\r"
+  - VINDE
+  - "\u0E0A\u0E19\u0E30"
+  - MENANG
+  - "TH\u1EAENG"
+  - GANHAR
+  - "\uC774\uAE30\uB2E4"
+  - "\u1021\u1014\u102D\u102F\u1004\u103A\u101B\r"
   - L_10
   - PLAY
   - "\u73A9"
   - "\u904A\u3076"
   - JUGAR
   - CHEZA
-  - "SPIL\r"
+  - SPIL
+  - "\u0E40\u0E25\u0E48\u0E19"
+  - BERMAIN
+  - "CH\u01A0I"
+  - JOGAR
+  - "\uB180\uB2E4"
+  - "\u1000\u1005\u102C\u1038\u1015\u102B\u104B\r"
   - L_11
   - 'Balance:'
   - "\u5E73\u8861\uFF1A"
   - "\u30D0\u30E9\u30F3\u30B9\uFF1A"
   - 'Balance:'
   - 'Salio:'
-  - "Balance:\r"
+  - 'Balance:'
+  - "\u0E2A\u0E21\u0E14\u0E38\u0E25:"
+  - 'Keseimbangan:'
+  - "S\u1EF1 c\xE2n b\u1EB1ng:"
+  - "Equil\xEDbrio:"
+  - "\uADE0\uD615:"
+  - "\u101C\u1000\u103A\u1000\u103B\u1014\u103A-\r"
   - L_12
   - 'Bet:'
   - "\u8CED\u6CE8\uFF1A"
   - "\u30D9\u30C3\u30C8\uFF1A"
   - 'Apuesta:'
   - 'Dau:'
-  - "V\xE6dde:\r"
+  - "V\xE6dde:"
+  - "\u0E40\u0E14\u0E34\u0E21\u0E1E\u0E31\u0E19:"
+  - 'Bertaruh:'
+  - "\u0110\u1EB7t c\u01B0\u1EE3c:"
+  - 'Aposta:'
+  - "\uB0B4\uAE30:"
+  - "\u101C\u1031\u102C\u1004\u103A\u1038\u1000\u103C\u1031\u1038-\r"
   - L_13
   - System
   - "\u7CFB\u7D71"
   - "\u30B7\u30B9\u30C6\u30E0"
   - Sistema
   - Mfumo
-  - "System\r"
+  - System
+  - "\u0E23\u0E30\u0E1A\u0E1A"
+  - Sistem
+  - "H\u1EC7 th\u1ED1ng"
+  - Sistema
+  - "\uCCB4\uACC4"
+  - "\u1005\u1014\u1005\u103A\r"
   - L_14
   - You have been idle for too long,please login again.
   - "\u60A8\u5DF2\u7D93\u9592\u7F6E\u592A\u4E45\uFF0C\u8ACB\u91CD\u65B0\u767B\u5165\u3002"
   - "\u30A2\u30A4\u30C9\u30EB\u72B6\u614B\u304C\u9577\u3059\u304E\u307E\u3059\u3002\u518D\u5EA6\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
   - "Ha estado inactivo durante demasiado tiempo, inicie sesi\xF3n nuevamente."
   - Umekuwa bila kufanya kitu kwa muda mrefu sana, tafadhali ingia tena.
-  - "Du har v\xE6ret inaktiv for l\xE6nge, \u200B\u200Blog venligst ind igen.\r"
+  - "Du har v\xE6ret inaktiv for l\xE6nge, \u200B\u200Blog venligst ind igen."
+  - "\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E27\u0E25\u0E32\u0E19\u0E32\u0E19\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B
+    \u0E01\u0E23\u0E38\u0E13\u0E32\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07"
+  - Anda sudah terlalu lama menganggur, silakan login lagi.
+  - "B\u1EA1n \u0111\xE3 kh\xF4ng ho\u1EA1t \u0111\u1ED9ng qu\xE1 l\xE2u, vui l\xF2ng
+    \u0111\u0103ng nh\u1EADp l\u1EA1i."
+  - "Voc\xEA ficou inativo por muito tempo, fa\xE7a login novamente."
+  - "\uB108\uBB34 \uC624\uB7AB\uB3D9\uC548 \uC811\uC18D\uD558\uC9C0 \uC54A\uC73C\uC168\uC2B5\uB2C8\uB2E4.
+    \uB2E4\uC2DC \uB85C\uADF8\uC778\uD574 \uC8FC\uC2ED\uC2DC\uC624."
+  - "\u101E\u1004\u103A \u1015\u103B\u1004\u103A\u1038\u101B\u102D\u1014\u1031\u101E\u100A\u103A\u1019\u103E\u102C
+    \u1000\u103C\u102C\u1015\u103C\u102E\u104A \u1000\u103B\u1031\u1038\u1007\u1030\u1038\u1015\u103C\u102F\u104D
+    \u1011\u1015\u103A\u1019\u1036\u101D\u1004\u103A\u101B\u1031\u102C\u1000\u103A\u1015\u102B\u104B\r"
   - L_15
   - Insufficient balance.
   - "\u9918\u984D\u4E0D\u8DB3\u3002"
   - "\u30D0\u30E9\u30F3\u30B9\u304C\u4E0D\u5341\u5206\u3067\u3059\u3002"
   - Saldo insuficiente.
   - Usawa usiotosha.
-  - "Utilstr\xE6kkelig balance.\r"
+  - "Utilstr\xE6kkelig balance."
+  - "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E44\u0E21\u0E48\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E1E\u0E2D"
+  - Saldo tidak mencukupi.
+  - "Kh\xF4ng \u0111\u1EE7 c\xE2n b\u1EB1ng."
+  - "Equil\xEDbrio insuficiente."
+  - "\uC794\uC561\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+  - "\u101C\u1000\u103A\u1000\u103B\u1014\u103A\u1019\u101C\u102F\u1036\u101C\u1031\u102C\u1000\u103A\u104B\r"
   - L_16
   - Confirm
   - "\u78BA\u8A8D"
   - "\u78BA\u8A8D\u3059\u308B"
   - Confirmar
   - Thibitisha
-  - "Bekr\xE6fte\r"
+  - "Bekr\xE6fte"
+  - "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
+  - Mengonfirmasi
+  - "X\xE1c nh\u1EADn"
+  - Confirmar
+  - "\uD655\uC778\uD558\uB2E4"
+  - "\u1021\u1010\u100A\u103A\u1015\u103C\u102F\u1015\u102B\u104B\r"
   - L_17
   - Server connection interrupted
   - "\u4F3A\u670D\u5668\u9023\u7DDA\u4E2D\u65B7"
   - "\u30B5\u30FC\u30D0\u30FC\u63A5\u7D9A\u304C\u4E2D\u65AD\u3055\u308C\u307E\u3057\u305F"
   - "Conexi\xF3n del servidor interrumpida"
   - Muunganisho wa seva umekatizwa
-  - "Serverforbindelse afbrudt\r"
+  - Serverforbindelse afbrudt
+  - "\u0E01\u0E32\u0E23\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E40\u0E0B\u0E34\u0E23\u0E4C\u0E1F\u0E40\u0E27\u0E2D\u0E23\u0E4C\u0E16\u0E39\u0E01\u0E02\u0E31\u0E14\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30"
+  - Koneksi server terputus
+  - "K\u1EBFt n\u1ED1i m\xE1y ch\u1EE7 b\u1ECB gi\xE1n \u0111o\u1EA1n"
+  - "Conex\xE3o do servidor interrompida"
+  - "\uC11C\uBC84 \uC5F0\uACB0\uC774 \uC911\uB2E8\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
+  - "\u1006\u102C\u1017\u102C\u1001\u103B\u102D\u1010\u103A\u1006\u1000\u103A\u1019\u103E\u102F
+    \u1015\u103C\u1010\u103A\u1010\u1031\u102C\u1000\u103A\u101E\u103D\u102C\u1038\u101E\u100A\u103A\u104B\r"
   - L_18
   - Language
   - "\u8A9E\u8A00"
   - "\u8A00\u8A9E"
   - Idioma
   - Lugha
-  - "Sprog\r"
+  - Sprog
+  - "\u0E20\u0E32\u0E29\u0E32"
+  - Bahasa
+  - "Ng\xF4n ng\u1EEF"
+  - Linguagem
+  - "\uC5B8\uC5B4"
+  - "\u1018\u102C\u101E\u102C\u1005\u1000\u102C\u1038\r"
   - L_19
   - Translate
   - "\u7FFB\u8B6F"
   - "\u7FFB\u8A33\u3059\u308B"
   - Traducir
   - Tafsiri
-  - "Overs\xE6tte\r"
+  - "Overs\xE6tte"
+  - "\u0E41\u0E1B\u0E25"
+  - Menerjemahkan
+  - "D\u1ECBch"
+  - Traduzir
+  - "\uBC88\uC5ED\uD558\uB2E4"
+  - "\u1018\u102C\u101E\u102C\u1015\u103C\u1014\u103A\u1015\u102B\u104B\r"
   - L_20
   - Showcase
   - "\u5C55\u793A\u6AC3"
   - "\u30B7\u30E7\u30FC\u30B1\u30FC\u30B9"
   - Escaparate
-  - Maonyesho
-  - "Udstillingsvindue\r"
+  - Onyesho
+  - Udstillingsvindue
+  - "\u0E15\u0E39\u0E49\u0E42\u0E0A\u0E27\u0E4C"
+  - Memamerkan
+  - "tr\u01B0ng b\xE0y"
+  - Vitrine
+  - "\uC720\uB9AC \uC9C4\uC5F4\uC7A5"
+  - "\u101B\u103E\u102D\u102F\u1038\u1000\u1031\u1037\r"
   - L_21
-  - 
-  - 
-  - 
-  - 
-  - 
-  - "\r"
+  - Welcome
+  - "\u6B61\u8FCE"
+  - "\u3044\u3089\u3063\u3057\u3083\u3044\u307E\u305B"
+  - Bienvenido
+  - Karibu
+  - Velkomst
+  - "\u0E22\u0E34\u0E19\u0E14\u0E35\u0E15\u0E49\u0E2D\u0E19\u0E23\u0E31\u0E1A"
+  - Selamat datang
+  - "Ch\xE0o m\u1EEBng"
+  - Bem-vindo
+  - "\uD658\uC601"
+  - "\u1000\u103C\u102D\u102F\u1006\u102D\u102F\u1015\u102B\u1010\u101A\u103A\u104B\r"
   - L_22
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1000,8 +1142,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_24
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1014,8 +1168,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_26
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1028,8 +1194,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_28
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1042,8 +1220,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_30
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1056,8 +1246,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_32
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1070,8 +1272,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_34
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1084,8 +1298,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_36
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1098,8 +1324,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_38
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1112,8 +1350,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_40
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1126,8 +1376,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_42
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1140,8 +1402,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_44
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1154,8 +1428,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_46
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1168,8 +1454,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_48
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1182,8 +1480,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_50
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1196,8 +1506,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_52
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1210,8 +1532,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_54
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1224,8 +1558,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_56
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1238,8 +1584,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_58
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1252,8 +1610,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_60
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1266,8 +1636,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_62
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1280,8 +1662,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_64
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1294,8 +1688,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_66
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1308,8 +1714,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_68
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1322,8 +1740,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_70
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1336,8 +1766,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_72
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1350,8 +1792,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_74
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1364,8 +1818,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_76
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1378,8 +1844,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_78
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1392,8 +1870,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_80
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1406,8 +1896,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_82
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1420,8 +1922,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_84
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1434,8 +1948,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_86
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1448,8 +1974,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_88
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1462,8 +2000,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_90
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1476,8 +2026,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_92
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1490,8 +2052,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_94
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1504,8 +2078,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_96
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1518,8 +2104,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_98
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1532,8 +2130,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - "\r"
   - L_100
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -1598,7 +2208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Translate
+  m_text: Welcome
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
   m_sharedMaterial: {fileID: 2236375997432499111, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
@@ -1690,7 +2300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1818218202}
-  CODE: L_19
+  CODE: L_21
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

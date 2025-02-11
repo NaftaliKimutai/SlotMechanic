@@ -1,100 +1,100 @@
-CODE	ENGLISH	CHINESE	JAPAN	SPANISH	SWAHILI	DANISH
-L_2	Hello	你好	こんにちは	Hola	Habari	Hej
-L_3	Loading....	載入中....	読み込み中....	Cargando....	Inapakia....	Indlæser...
-L_4	Continue	繼續	続く	Continuar	Endelea	Fortsætte
-L_5	Don't show next time	下次不再顯示	次回は表示しないでください	No mostrar la próxima vez	Usionyeshe wakati ujao	Vis ikke næste gang
-L_6	Any 3 Symbol to win.	任 3 個符號即可獲勝。	任意の 3 シンボルで勝利します。	Cualquier 3 símbolos para ganar.	Alama yoyote 3 kushinda.	Ethvert 3 symbol for at vinde.
-L_7	Special wheel,A variety of effects	特殊輪子，多種效果	特殊ホイール、多彩なエフェクト	Rueda especial, una variedad de efectos.	Gurudumu maalum, athari mbalimbali	Specielt hjul, en række effekter
-L_8	Volatility:	揮發性：	ボラティリティ:	Volatilidad:	Tete:	Volatilitet:
-L_9	WIN	贏	勝つ	GANAR	SHINDA	VINDE
-L_10	PLAY	玩	遊ぶ	JUGAR	CHEZA	SPIL
-L_11	Balance:	平衡：	バランス：	Balance:	Salio:	Balance:
-L_12	Bet:	賭注：	ベット：	Apuesta:	Dau:	Vædde:
-L_13	System	系統	システム	Sistema	Mfumo	System
-L_14	You have been idle for too long,please login again.	您已經閒置太久，請重新登入。	アイドル状態が長すぎます。再度ログインしてください。	Ha estado inactivo durante demasiado tiempo, inicie sesión nuevamente.	Umekuwa bila kufanya kitu kwa muda mrefu sana, tafadhali ingia tena.	Du har været inaktiv for længe, ​​log venligst ind igen.
-L_15	Insufficient balance.	餘額不足。	バランスが不十分です。	Saldo insuficiente.	Usawa usiotosha.	Utilstrækkelig balance.
-L_16	Confirm	確認	確認する	Confirmar	Thibitisha	Bekræfte
-L_17	Server connection interrupted	伺服器連線中斷	サーバー接続が中断されました	Conexión del servidor interrumpida	Muunganisho wa seva umekatizwa	Serverforbindelse afbrudt
-L_18	Language	語言	言語	Idioma	Lugha	Sprog
-L_19	Translate	翻譯	翻訳する	Traducir	Tafsiri	Oversætte
-L_20	Showcase	展示櫃	ショーケース	Escaparate	Maonyesho	Udstillingsvindue
-L_21						
-L_22						
-L_23						
-L_24						
-L_25						
-L_26						
-L_27						
-L_28						
-L_29						
-L_30						
-L_31						
-L_32						
-L_33						
-L_34						
-L_35						
-L_36						
-L_37						
-L_38						
-L_39						
-L_40						
-L_41						
-L_42						
-L_43						
-L_44						
-L_45						
-L_46						
-L_47						
-L_48						
-L_49						
-L_50						
-L_51						
-L_52						
-L_53						
-L_54						
-L_55						
-L_56						
-L_57						
-L_58						
-L_59						
-L_60						
-L_61						
-L_62						
-L_63						
-L_64						
-L_65						
-L_66						
-L_67						
-L_68						
-L_69						
-L_70						
-L_71						
-L_72						
-L_73						
-L_74						
-L_75						
-L_76						
-L_77						
-L_78						
-L_79						
-L_80						
-L_81						
-L_82						
-L_83						
-L_84						
-L_85						
-L_86						
-L_87						
-L_88						
-L_89						
-L_90						
-L_91						
-L_92						
-L_93						
-L_94						
-L_95						
-L_96						
-L_97						
-L_98						
-L_99						
-L_100						
+CODE	ENGLISH	CHINESE	JAPAN	SPANISH	SWAHILI	DANISH	THAI	INDONESIA	VIETNAM	PORTOGUESE	KOREA	BURMESE
+L_2	Hello	你好	こんにちは	Hola	Habari	Hej	สวัสดี	Halo	Xin chào	Olá	안녕하세요	မင်္ဂလာပါ
+L_3	Loading....	載入中....	読み込み中....	Cargando....	Inapakia....	Indlæser...	กำลังโหลด....	Memuat....	Đang tải....	Carregando....	로드 중....	တင်နေသည်....
+L_4	Continue	繼續	続く	Continuar	Endelea	Fortsætte	ดำเนินการต่อ	Melanjutkan	Tiếp tục	Continuar	계속하다	ဆက်ရန်
+L_5	Don't show next time	下次不再顯示	次回は表示しないでください	No mostrar la próxima vez	Usionyeshe wakati ujao	Vis ikke næste gang	อย่าแสดงครั้งต่อไป	Jangan tampilkan lain kali	Đừng hiển thị lần sau	Não mostre da próxima vez	다음번에는 표시하지 않음	နောက်တစ်ကြိမ် မပြပါနှင့်
+L_6	Any 3 Symbol to win.	任 3 個符號即可獲勝。	任意の 3 シンボルで勝利します。	Cualquier 3 símbolos para ganar.	Alama yoyote 3 kushinda.	Ethvert 3 symbol for at vinde.	3 สัญลักษณ์ใด ๆ ที่จะชนะ	3 Simbol apa pun untuk menang.	Bất kỳ 3 biểu tượng nào cũng sẽ giành chiến thắng.	Qualquer 3 símbolos para ganhar.	승리하려면 기호 3개를 선택하세요.	အနိုင်ရရန် သင်္ကေတ ၃ ခု။
+L_7	Special wheel,A variety of effects	特殊輪子，多種效果	特殊ホイール、多彩なエフェクト	Rueda especial, una variedad de efectos.	Gurudumu maalum, athari mbalimbali	Specielt hjul, en række effekter	วงล้อพิเศษ เอฟเฟกต์หลากหลาย	Roda khusus, Berbagai efek	Bánh xe đặc biệt, Nhiều hiệu ứng	Roda especial, uma variedade de efeitos	특수 휠, 다양한 효과	အထူးဘီး၊ သက်ရောက်မှုမျိုးစုံ
+L_8	Volatility:	揮發性：	ボラティリティ:	Volatilidad:	Tete:	Volatilitet:	ความผันผวน:	Keriangan:	Biến động:	Volatilidade:	휘발성:	မတည်ငြိမ်မှု-
+L_9	WIN	贏	勝つ	GANAR	SHINDA	VINDE	ชนะ	MENANG	THẮNG	GANHAR	이기다	အနိုင်ရ
+L_10	PLAY	玩	遊ぶ	JUGAR	CHEZA	SPIL	เล่น	BERMAIN	CHƠI	JOGAR	놀다	ကစားပါ။
+L_11	Balance:	平衡：	バランス：	Balance:	Salio:	Balance:	สมดุล:	Keseimbangan:	Sự cân bằng:	Equilíbrio:	균형:	လက်ကျန်-
+L_12	Bet:	賭注：	ベット：	Apuesta:	Dau:	Vædde:	เดิมพัน:	Bertaruh:	Đặt cược:	Aposta:	내기:	လောင်းကြေး-
+L_13	System	系統	システム	Sistema	Mfumo	System	ระบบ	Sistem	Hệ thống	Sistema	체계	စနစ်
+L_14	You have been idle for too long,please login again.	您已經閒置太久，請重新登入。	アイドル状態が長すぎます。再度ログインしてください。	Ha estado inactivo durante demasiado tiempo, inicie sesión nuevamente.	Umekuwa bila kufanya kitu kwa muda mrefu sana, tafadhali ingia tena.	Du har været inaktiv for længe, ​​log venligst ind igen.	คุณไม่ได้ใช้งานเป็นเวลานานเกินไป กรุณาเข้าสู่ระบบอีกครั้ง	Anda sudah terlalu lama menganggur, silakan login lagi.	Bạn đã không hoạt động quá lâu, vui lòng đăng nhập lại.	Você ficou inativo por muito tempo, faça login novamente.	너무 오랫동안 접속하지 않으셨습니다. 다시 로그인해 주십시오.	သင် ပျင်းရိနေသည်မှာ ကြာပြီ၊ ကျေးဇူးပြု၍ ထပ်မံဝင်ရောက်ပါ။
+L_15	Insufficient balance.	餘額不足。	バランスが不十分です。	Saldo insuficiente.	Usawa usiotosha.	Utilstrækkelig balance.	ยอดคงเหลือไม่เพียงพอ	Saldo tidak mencukupi.	Không đủ cân bằng.	Equilíbrio insuficiente.	잔액이 부족합니다.	လက်ကျန်မလုံလောက်။
+L_16	Confirm	確認	確認する	Confirmar	Thibitisha	Bekræfte	ยืนยัน	Mengonfirmasi	Xác nhận	Confirmar	확인하다	အတည်ပြုပါ။
+L_17	Server connection interrupted	伺服器連線中斷	サーバー接続が中断されました	Conexión del servidor interrumpida	Muunganisho wa seva umekatizwa	Serverforbindelse afbrudt	การเชื่อมต่อเซิร์ฟเวอร์ถูกขัดจังหวะ	Koneksi server terputus	Kết nối máy chủ bị gián đoạn	Conexão do servidor interrompida	서버 연결이 중단되었습니다	ဆာဗာချိတ်ဆက်မှု ပြတ်တောက်သွားသည်။
+L_18	Language	語言	言語	Idioma	Lugha	Sprog	ภาษา	Bahasa	Ngôn ngữ	Linguagem	언어	ဘာသာစကား
+L_19	Translate	翻譯	翻訳する	Traducir	Tafsiri	Oversætte	แปล	Menerjemahkan	Dịch	Traduzir	번역하다	ဘာသာပြန်ပါ။
+L_20	Showcase	展示櫃	ショーケース	Escaparate	Onyesho	Udstillingsvindue	ตู้โชว์	Memamerkan	trưng bày	Vitrine	유리 진열장	ရှိုးကေ့
+L_21	Welcome	歡迎	いらっしゃいませ	Bienvenido	Karibu	Velkomst	ยินดีต้อนรับ	Selamat datang	Chào mừng	Bem-vindo	환영	ကြိုဆိုပါတယ်။
+L_22												
+L_23												
+L_24												
+L_25												
+L_26												
+L_27												
+L_28												
+L_29												
+L_30												
+L_31												
+L_32												
+L_33												
+L_34												
+L_35												
+L_36												
+L_37												
+L_38												
+L_39												
+L_40												
+L_41												
+L_42												
+L_43												
+L_44												
+L_45												
+L_46												
+L_47												
+L_48												
+L_49												
+L_50												
+L_51												
+L_52												
+L_53												
+L_54												
+L_55												
+L_56												
+L_57												
+L_58												
+L_59												
+L_60												
+L_61												
+L_62												
+L_63												
+L_64												
+L_65												
+L_66												
+L_67												
+L_68												
+L_69												
+L_70												
+L_71												
+L_72												
+L_73												
+L_74												
+L_75												
+L_76												
+L_77												
+L_78												
+L_79												
+L_80												
+L_81												
+L_82												
+L_83												
+L_84												
+L_85												
+L_86												
+L_87												
+L_88												
+L_89												
+L_90												
+L_91												
+L_92												
+L_93												
+L_94												
+L_95												
+L_96												
+L_97												
+L_98												
+L_99												
+L_100												

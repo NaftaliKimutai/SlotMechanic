@@ -15,7 +15,13 @@ public enum Extra_TheLanguage
     Japan,
     Spanish,
     Swahili,
-    Danish
+    Danish,
+    Thai,
+    Indonesia,
+    Vietnam,
+    Portoguese,
+    Korea,
+    Burmese
 }
 
 public class Extra_LanguageMan : MonoBehaviour
