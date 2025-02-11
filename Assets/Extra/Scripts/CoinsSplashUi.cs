@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class CoinsSplashUi : MonoBehaviour
 {
+    public float AliveTime = 0.4f;
     public float TheDist = 1000;
     public float RotateSpeed = 20;
     public GameObject CoinPref;
@@ -76,7 +77,7 @@ public class CoinsSplashUi : MonoBehaviour
 
             }
             go.transform.localPosition = TargetPos[i]/StartOffset;
-            Destroy(go, 0.4f);
+            Destroy(go, AliveTime);
 ;        }
        
     }
