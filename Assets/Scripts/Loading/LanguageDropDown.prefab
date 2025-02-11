@@ -840,6 +840,18 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: DANISH
       m_Image: {fileID: 0}
+    - m_Text: THAI
+      m_Image: {fileID: 0}
+    - m_Text: INDONESIA
+      m_Image: {fileID: 0}
+    - m_Text: VIETNAM
+      m_Image: {fileID: 0}
+    - m_Text: PORTOGUESE
+      m_Image: {fileID: 0}
+    - m_Text: KOREA
+      m_Image: {fileID: 0}
+    - m_Text: BURMESE
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
