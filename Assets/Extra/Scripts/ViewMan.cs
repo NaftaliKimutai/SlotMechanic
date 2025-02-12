@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEditor.SceneManagement;
 #endif
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class ViewMan : MonoBehaviour
 {
     public bool IsLandScape;
@@ -11,6 +12,7 @@ public class ViewMan : MonoBehaviour
     public Vector2 ScaleMultiplier;
     public float NewScaleMultiplier;
     float forceupdatetimestamp;
+    public CanvasScaler canvasScaler;
     private void Start()
     {
         forceupdatetimestamp = Time.time + 3;
@@ -36,7 +38,18 @@ public class ViewMan : MonoBehaviour
                 SetLandscape();
             }
         }
-       
+        if (canvasScaler)
+        {
+            if (NewScaleMultiplier < 2.9f)
+            {
+                canvasScaler.screenMatchMode = CanvasScaler.ScreenMatchMode.Expand;
+            }
+            else
+            {
+                canvasScaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
+            }
+        }
+
     }
     
     [ContextMenu("Landscape")]

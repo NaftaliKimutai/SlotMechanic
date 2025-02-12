@@ -4567,6 +4567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveLanguage: 4
+  FileName: DemoGame_Text_DataBase
   All_Game_Text: 
   Data:
   - CODE
@@ -5317,6 +5318,7 @@ MonoBehaviour:
   CurrentScale: {x: 0, y: 0}
   ScaleMultiplier: {x: 0, y: 0}
   NewScaleMultiplier: 0
+  canvasScaler: {fileID: 1745009277}
 --- !u!114 &1735326722 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 24558470969026698, guid: cb076c7fb23ce4d1abc4d47ab2a9b235, type: 3}
