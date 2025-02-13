@@ -34,7 +34,8 @@
 
         window.addEventListener("message", (event) => {
             console.log("Message Listener addded");
-            console.log(event.data);
+            console.log(event.message);
+            //console.log(event.data);
 
             // Ensure the message comes from a trusted origin
             //const allowedOrigin = "https://demogames.ibibe.africa/crazy777/Crazy777WebBuild/"; // Replace with your React app's origin
@@ -49,7 +50,7 @@
 
             if (action === "setUserId") {
                 console.log("Received userId in Unity iframe:", userId);
-                instance.SendMessage("FetchUserInfo", "SetUserId", userId);
+                instance.SendMessage("FetchUserInfo", "SetPlayerId", userId);
                 instance.SendMessage("FetchUserInfo", "SetMode", mode);
                 instance.SendMessage("FetchUserInfo", "SetGameId", gameId);
                 instance.SendMessage("FetchUserInfo", "SetClientId", clientId);

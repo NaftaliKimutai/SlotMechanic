@@ -4,28 +4,11 @@ using UnityEngine.UI;
 public class FetchUserInfo : MonoBehaviour
 {
     public ConfigMan configMan;
-    string theuserid;
     public Toggle DemoToggle;
-    [Header("Test")]
-    public string Test_PlayerId = 5.ToString();
-    public string Test_GameId = 20.ToString();
-    public string Test_ClientId = 100.ToString();
-
-
-    [ContextMenu("Test")]
-   public void Test()
-    {
-        SetUserId(Test_PlayerId);
-        SetGameId(int.Parse(Test_GameId));
-        SetClientId(int.Parse(Test_ClientId));
-    }
    
-    public void SetUserId(string userId)
+    public void SetPlayerId(string userId)
     {
-        theuserid = userId;
-       // Debug.Log("Received userId: " + userId);
-      //  ConfigMan.ConfigInstance.PassCustomerId(userId);
-        configMan.PassCustomerId(userId);
+        configMan.PassPlayerId(userId);
        configMan.PlayerIdText.text = userId;
 
         // Use the userId in your game logic

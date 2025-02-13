@@ -6,9 +6,9 @@ public class ConfigMan : MonoBehaviour
     public static ConfigMan Instance;
     public bool IsDemo;
 
-    [Header("CustomerDetails")]
-    public bool ReceivedCustomerId;
-    public string CustomerId;
+    [Header("Config Details")]
+    public bool ReceivedConfigs;
+    public string PlayerId;
     public string GameId;
     public string ClientId;
 
@@ -56,11 +56,11 @@ public class ConfigMan : MonoBehaviour
         // Or / And
         AudioListener.volume = silence ? 0 : 1;
     }
-    public void PassCustomerId(string TheId)
+    public void PassPlayerId(string TheId)
     {
-        CustomerId = TheId;
-        ReceivedCustomerId = true;
-        Debug.Log("TheFetchedUserIs_" + TheId);
+        PlayerId = TheId;
+        ReceivedConfigs = true;
+        Debug.Log("TheFetchedPlayerIdIs_" + TheId);
     }
     public void PassGameId(string Id)
     {
@@ -76,7 +76,7 @@ public class ConfigMan : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(PlayerIdText.text))
         {
-            PassCustomerId(PlayerIdText.text);
+            PassPlayerId(PlayerIdText.text);
         }
         if (!string.IsNullOrEmpty(GameIdText.text))
         {
