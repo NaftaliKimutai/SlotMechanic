@@ -13782,7 +13782,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -13795,6 +13798,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 6663757403334524489}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &1283161554281462103
 GameObject:
   m_ObjectHideFlags: 0
@@ -21750,7 +21754,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -21763,6 +21770,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 2584331110278387028}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &1998551510065595196
 GameObject:
   m_ObjectHideFlags: 0
@@ -23506,7 +23514,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -23519,6 +23530,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 3005733058082896583}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &2198600139941102737
 GameObject:
   m_ObjectHideFlags: 0
@@ -23915,7 +23927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 0.3
     Speed: 1
@@ -23928,6 +23943,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 7753855498697518360}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &2235482553933312719
 GameObject:
   m_ObjectHideFlags: 0
@@ -25900,7 +25916,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -25913,6 +25932,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 6332214105518820130}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &2440784252897267896
 GameObject:
   m_ObjectHideFlags: 0
@@ -31741,7 +31761,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -31754,6 +31777,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 3369898152924822981}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &3077292119493599497
 GameObject:
   m_ObjectHideFlags: 0
@@ -38382,6 +38406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7200e1d5b0d444c3199e3399bcb38c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TranslationDocument: {fileID: 4900000, guid: 0b4458ac6ff9c4265acd47258678fb07, type: 3}
   ActiveLanguage: 4
   All_Game_Text: 
   Data:
@@ -64588,7 +64613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -64601,6 +64629,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 4507817799651329841}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &6584157248357917583
 GameObject:
   m_ObjectHideFlags: 0
@@ -84369,6 +84398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a3c98a39b7249a9b829ff82c1b1652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AliveTime: 0.4
   TheDist: 100
   RotateSpeed: 800
   CoinPref: {fileID: 1543758961480052738, guid: 0af9bb0a53e4043e0a2ef5e7d83c76db, type: 3}
@@ -84799,7 +84829,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6cd69301fa0441dbd30846ae2519de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRandom: 0
+  _IsLoop: 1
   Target: 0
+  StartOffsetTime: 0
   TargetData:
   - TargetTime: 1
     Speed: 1
@@ -84812,6 +84845,7 @@ MonoBehaviour:
     TargetColor: {r: 1, g: 1, b: 1, a: 0}
   TheImg: {fileID: 4295685593235042859}
   TheText: {fileID: 0}
+  TheOutline: {fileID: 0}
 --- !u!1 &8693699258811456112
 GameObject:
   m_ObjectHideFlags: 0

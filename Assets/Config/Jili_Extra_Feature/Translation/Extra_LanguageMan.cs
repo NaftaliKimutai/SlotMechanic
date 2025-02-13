@@ -12,6 +12,7 @@ using UnityEditor;
 
 public class Extra_LanguageMan : MonoBehaviour
 {
+    public TextAsset TranslationDocument;
     public TheLanguage ActiveLanguage;
     
     public string All_Game_Text;
@@ -28,8 +29,7 @@ public class Extra_LanguageMan : MonoBehaviour
             instance = this;
 
         }
-       // TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBasee", typeof(TextAsset));
-      //  Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
+       
         RefreshAll();
         if (Data.Length == 0)
         {
@@ -90,8 +90,7 @@ public class Extra_LanguageMan : MonoBehaviour
     [ContextMenu("AssignCode")]
     public void AssignCodes()
     {
-        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBase", typeof(TextAsset));
-        Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
+        Data = TranslationDocument.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
         Extra_FetchTextController[] texts = FindObjectsOfType<Extra_FetchTextController>(true);
         for (int i = 0; i < texts.Length; i++)
         {
