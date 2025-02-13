@@ -6,7 +6,7 @@ public enum TheInfo
     FreeGift,
     RichCard
 }
-public class InfoTab : MonoBehaviour
+public class ExtraInfo : MonoBehaviour
 {
     public InfoHolder[] TheTabs;
     public void ShowInfo(TheInfo Which)
