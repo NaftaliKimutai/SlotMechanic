@@ -66,50 +66,50 @@ public class FetchUserInfo : MonoBehaviour
         Debug.Log("TheLanguage: " + id.ToString());
         if (id == "en")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.English);
+            LanguageMan.instance._SetLanguage(TheLanguage.English);
         }
         else if (id == "zh") {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Chinese);
+            LanguageMan.instance._SetLanguage(TheLanguage.Chinese);
         }
         else if (id == "es")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Spanish);
+            LanguageMan.instance._SetLanguage(TheLanguage.Spanish);
         }
         else if (id == "ja")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Japan);
+            LanguageMan.instance._SetLanguage(TheLanguage.Japan);
         }
         else if (id == "sw")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Swahili);
+            LanguageMan.instance._SetLanguage(TheLanguage.Swahili);
         }
         else if (id == "da")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Danish);
+            LanguageMan.instance._SetLanguage(TheLanguage.Danish);
         }
         else if (id == "th")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Thai);
+            LanguageMan.instance._SetLanguage(TheLanguage.Thai);
         }
         else if (id == "id")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Indonesia);
+            LanguageMan.instance._SetLanguage(TheLanguage.Indonesia);
         }
         else if (id == "vi")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Vietnam);
+            LanguageMan.instance._SetLanguage(TheLanguage.Vietnam);
         }
         else if (id == "pt-PT")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Portoguese);
+            LanguageMan.instance._SetLanguage(TheLanguage.Portoguese);
         }
         else if (id == "ko")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Korea);
+            LanguageMan.instance._SetLanguage(TheLanguage.Korea);
         }
         else if (id == "my")
         {
-            LanguageMan.instance._SetLanguage(Extra_TheLanguage.Burmese);
+            LanguageMan.instance._SetLanguage(TheLanguage.Burmese);
         }
     }
 }

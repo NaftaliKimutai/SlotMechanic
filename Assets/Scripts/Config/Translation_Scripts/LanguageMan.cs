@@ -8,7 +8,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEditor;
 
-public enum Extra_TheLanguage
+public enum TheLanguage
 {
     English,
     Chinese,
@@ -24,13 +24,14 @@ public enum Extra_TheLanguage
     Burmese
 }
 
-public class Extra_LanguageMan : MonoBehaviour
+public class LanguageMan : MonoBehaviour
 {
-    public Extra_TheLanguage ActiveLanguage;
-    
+    public TheLanguage ActiveLanguage;
+    public string FileName = "DemoGame_Text_DataBase";
     public string All_Game_Text;
     public string[] Data;
-    public static Extra_LanguageMan instance;
+    public static LanguageMan instance;
+
     void Awake()
     {
         if (instance)
@@ -42,14 +43,16 @@ public class Extra_LanguageMan : MonoBehaviour
             instance = this;
 
         }
-       // TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBasee", typeof(TextAsset));
-      //  Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
+        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/"+FileName, typeof(TextAsset));
+        Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
         RefreshAll();
         if (Data.Length == 0)
         {
             
 
         }
+        SetExtraLanguage();
+
     }
    
 
@@ -70,43 +73,18 @@ public class Extra_LanguageMan : MonoBehaviour
     {
         if (!Application.isPlaying)
             return;
-        Extra_FetchTextController[] texts = FindObjectsOfType<Extra_FetchTextController>();
+        FetchTextController[] texts = FindObjectsOfType<FetchTextController>();
         for(int i = 0; i < texts.Length; i++)
         {
             texts[i].RefreshFetch();
         }
     }
-    public string FetchTranslation(string TheString)
-    {
-        for (int r = 0; r < Data.Length; r++)
-        {
-            if (Data[r] == TheString)
-            {
-                return  Data[r + (int)ActiveLanguage];
-            }
-
-        }
-        return TheString;
-    }
-    public void DynamicAssignCode(Extra_FetchTextController Which,string TheString)
-    {
-        for (int r = 0; r < Data.Length; r++)
-        {
-            if (Data[r] == TheString)
-            {
-                Which.CODE= Data[r - 1];
-                Which.RefreshFetch();
-                break;
-            }
-
-        }
-    }
     [ContextMenu("AssignCode")]
     public void AssignCodes()
     {
-        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBase", typeof(TextAsset));
+        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/"+FileName, typeof(TextAsset));
         Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
-        Extra_FetchTextController[] texts = FindObjectsOfType<Extra_FetchTextController>(true);
+        FetchTextController[] texts = FindObjectsOfType<FetchTextController>(true);
         for (int i = 0; i < texts.Length; i++)
         {
             bool found = false;
@@ -140,9 +118,41 @@ public class Extra_LanguageMan : MonoBehaviour
         }
 #endif
     }
-    public void SetLanguage(Extra_TheLanguage which)
+    public void SetLanguage(Dropdown LanguageDropDown)
     {
-        ActiveLanguage =which;
+        ActiveLanguage = (TheLanguage)LanguageDropDown.value;
         RefreshAll();
+
+        SetExtraLanguage();
+    }
+    public void _SetLanguage(TheLanguage _Language)
+    {
+        ActiveLanguage = _Language;
+        RefreshAll();
+
+        SetExtraLanguage();
+    }
+    void SetExtraLanguage()
+    {
+        if (!Extra_LanguageMan.instance)
+        {
+            Invoke(nameof(SetExtraLanguage), 1f);
+        }
+        else
+        {
+            Extra_LanguageMan.instance.SetLanguage(ActiveLanguage);
+        }
+    }
+    public string FetchTranslation(string TheString)
+    {
+        for (int r = 0; r < Data.Length; r++)
+        {
+            if (Data[r] == TheString)
+            {
+                return Data[r + (int)ActiveLanguage];
+            }
+
+        }
+        return TheString;
     }
 }

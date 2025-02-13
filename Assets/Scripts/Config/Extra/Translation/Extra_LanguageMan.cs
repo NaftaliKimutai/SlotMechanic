@@ -10,14 +10,13 @@ using UnityEditor;
 
 
 
-public class LanguageMan : MonoBehaviour
+public class Extra_LanguageMan : MonoBehaviour
 {
-    public Extra_TheLanguage ActiveLanguage;
-    public string FileName = "DemoGame_Text_DataBase";
+    public TheLanguage ActiveLanguage;
+    
     public string All_Game_Text;
     public string[] Data;
-    public static LanguageMan instance;
-
+    public static Extra_LanguageMan instance;
     void Awake()
     {
         if (instance)
@@ -29,16 +28,14 @@ public class LanguageMan : MonoBehaviour
             instance = this;
 
         }
-        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/"+FileName, typeof(TextAsset));
-        Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
+       // TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBasee", typeof(TextAsset));
+      //  Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
         RefreshAll();
         if (Data.Length == 0)
         {
             
 
         }
-        SetExtraLanguage();
-
     }
    
 
@@ -59,18 +56,43 @@ public class LanguageMan : MonoBehaviour
     {
         if (!Application.isPlaying)
             return;
-        FetchTextController[] texts = FindObjectsOfType<FetchTextController>();
+        Extra_FetchTextController[] texts = FindObjectsOfType<Extra_FetchTextController>();
         for(int i = 0; i < texts.Length; i++)
         {
             texts[i].RefreshFetch();
         }
     }
+    public string FetchTranslation(string TheString)
+    {
+        for (int r = 0; r < Data.Length; r++)
+        {
+            if (Data[r] == TheString)
+            {
+                return  Data[r + (int)ActiveLanguage];
+            }
+
+        }
+        return TheString;
+    }
+    public void DynamicAssignCode(Extra_FetchTextController Which,string TheString)
+    {
+        for (int r = 0; r < Data.Length; r++)
+        {
+            if (Data[r] == TheString)
+            {
+                Which.CODE= Data[r - 1];
+                Which.RefreshFetch();
+                break;
+            }
+
+        }
+    }
     [ContextMenu("AssignCode")]
     public void AssignCodes()
     {
-        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/"+FileName, typeof(TextAsset));
+        TextAsset fetch_from_resource = (TextAsset)Resources.Load("Translation/Extra_Text_DataBase", typeof(TextAsset));
         Data = fetch_from_resource.text.Split(new string[] { "\t", "\n" }, System.StringSplitOptions.None);
-        FetchTextController[] texts = FindObjectsOfType<FetchTextController>(true);
+        Extra_FetchTextController[] texts = FindObjectsOfType<Extra_FetchTextController>(true);
         for (int i = 0; i < texts.Length; i++)
         {
             bool found = false;
@@ -104,41 +126,9 @@ public class LanguageMan : MonoBehaviour
         }
 #endif
     }
-    public void SetLanguage(Dropdown LanguageDropDown)
+    public void SetLanguage(TheLanguage which)
     {
-        ActiveLanguage = (Extra_TheLanguage)LanguageDropDown.value;
+        ActiveLanguage =which;
         RefreshAll();
-
-        SetExtraLanguage();
-    }
-    public void _SetLanguage(Extra_TheLanguage _Language)
-    {
-        ActiveLanguage = _Language;
-        RefreshAll();
-
-        SetExtraLanguage();
-    }
-    void SetExtraLanguage()
-    {
-        if (!Extra_LanguageMan.instance)
-        {
-            Invoke(nameof(SetExtraLanguage), 1f);
-        }
-        else
-        {
-            Extra_LanguageMan.instance.SetLanguage(ActiveLanguage);
-        }
-    }
-    public string FetchTranslation(string TheString)
-    {
-        for (int r = 0; r < Data.Length; r++)
-        {
-            if (Data[r] == TheString)
-            {
-                return Data[r + (int)ActiveLanguage];
-            }
-
-        }
-        return TheString;
     }
 }

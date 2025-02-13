@@ -14,10 +14,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.English;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage =TheLanguage.English;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.English;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.English;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Chinese")]
@@ -27,11 +27,11 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Chinese;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Chinese;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
 
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Chinese;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Chinese;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Japan")]
@@ -41,10 +41,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Japan;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Japan;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Japan;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Japan;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Spanish")]
@@ -54,10 +54,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Spanish;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Spanish;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Spanish;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Spanish;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Swahili")]
@@ -67,10 +67,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Swahili;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Swahili;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Swahili;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Swahili;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 
@@ -81,10 +81,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Danish;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Danish;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Danish;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Danish;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Thai")]
@@ -94,10 +94,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Thai;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Thai;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Thai;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage =TheLanguage.Thai;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Indonesia")]
@@ -107,10 +107,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Indonesia;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Indonesia;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Indonesia;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Indonesia;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Vietnam")]
@@ -120,10 +120,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Vietnam;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage =TheLanguage.Vietnam;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Vietnam;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Vietnam;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Portoguese")]
@@ -133,10 +133,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Portoguese;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Portoguese;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Portoguese;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Portoguese;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Korea")]
@@ -146,10 +146,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Korea;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Korea;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Korea;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Korea;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 	[MenuItem("Translation/Burmese")]
@@ -159,10 +159,10 @@ public class TranslationHelper : Editor
 			return;
 		if (FindFirstObjectByType<Extra_LanguageMan>())
 		{
-			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = Extra_TheLanguage.Burmese;
+			FindFirstObjectByType<Extra_LanguageMan>().ActiveLanguage = TheLanguage.Burmese;
 			FindFirstObjectByType<Extra_LanguageMan>().RefreshAll();
 		}
-		FindFirstObjectByType<LanguageMan>().ActiveLanguage = Extra_TheLanguage.Burmese;
+		FindFirstObjectByType<LanguageMan>().ActiveLanguage = TheLanguage.Burmese;
 		FindFirstObjectByType<LanguageMan>().RefreshAll();
 	}
 
