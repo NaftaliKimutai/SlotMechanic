@@ -4,10 +4,10 @@ using TMPro;
 public class ConfigMan : MonoBehaviour
 {
     public static ConfigMan Instance;
+    public bool ReceivedConfigs;
+    [Header("Config Details")]
     public bool IsDemo;
 
-    [Header("Config Details")]
-    public bool ReceivedConfigs;
     public string PlayerId;
     public string GameId;
     public string ClientId;
