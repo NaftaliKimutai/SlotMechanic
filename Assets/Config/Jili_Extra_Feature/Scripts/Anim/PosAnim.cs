@@ -5,18 +5,21 @@ public class Posanimdata
     public float TargetTime = 0.1f;
     public float Speed = 2f;
     public Vector3 TargetPos = Vector3.one;
-    public bool UseScale;
     public float ScaleSpeed = 2f;
     public Vector3 TargetScale = Vector3.one;
 }
 public class PosAnim : MonoBehaviour
 {
+    public bool DontResetOnGamestart;
+    public bool UseScale;
     public bool IsLoop = true;
     float timestamp;
     public int Target;
     public Posanimdata[] TargetData;
     Vector3 ThePos;
+    Vector3 TheScale;
     float Speed;
+    float ScaleSpeed;
     public Transform TargetTrans;
     private void OnEnable()
     {
@@ -28,41 +31,51 @@ public class PosAnim : MonoBehaviour
         ThePos = TargetData[Target].TargetPos;
         timestamp = Time.time + TargetData[Target].TargetTime;
         TargetTrans.localPosition = ThePos;
-        if (TargetData[Target].UseScale)
+        if (UseScale)
         {
-            TargetTrans.localScale=  TargetData[Target].TargetScale;
+            TheScale = TargetData[Target].TargetScale;
+            TargetTrans.localScale = TargetData[Target].TargetScale;
         }
+
     }
     void Update()
     {
         if (timestamp < Time.time)
         {
-            if (Target == TargetData.Length - 1 && !IsLoop)
-            {
 
-            }
-            else
+
+            if (Target == TargetData.Length)
             {
-                Target += 1;
-            }
-            if (Target > TargetData.Length - 1 && IsLoop)
-            {
-                Target = 0;
-                ResetAnim();
+                if (IsLoop)
+                {
+                    if (DontResetOnGamestart)
+                    {
+                        if (!GameManager.Instance.IsGameStarted)
+                        {
+                            ResetAnim();
+                        }
+                    }
+                    else
+                    {
+                        ResetAnim();
+
+                    }
+                }
             }
             else
             {
                 timestamp = Time.time + TargetData[Target].TargetTime;
                 ThePos = TargetData[Target].TargetPos;
+                TheScale = TargetData[Target].TargetScale;
                 Speed = TargetData[Target].Speed;
+                ScaleSpeed = TargetData[Target].ScaleSpeed;
+                Target += 1;
             }
-
-          
         }
         TargetTrans.localPosition = Vector3.Lerp(TargetTrans.localPosition, ThePos, Speed * Time.deltaTime);
-        if (TargetData[Target].UseScale)
+        if (UseScale)
         {
-            TargetTrans.localScale = Vector3.Slerp(TargetTrans.localScale, TargetData[Target].TargetScale, TargetData[Target].ScaleSpeed*Time.deltaTime);
+            TargetTrans.localScale = Vector3.Slerp(TargetTrans.localScale, TheScale, ScaleSpeed * Time.deltaTime);
         }
     }
 
