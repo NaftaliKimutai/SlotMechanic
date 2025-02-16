@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Special Reel
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17a54636a03f64b1a946c9ddf57ba96a, type: 2}
-  m_sharedMaterial: {fileID: 6060177273563035168, guid: 17a54636a03f64b1a946c9ddf57ba96a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d0473a823d5a49a3821a90bc31f85ade, type: 2}
+  m_sharedMaterial: {fileID: 6060177273563035168, guid: d0473a823d5a49a3821a90bc31f85ade, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5566992866177420533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 8487761177694456368}

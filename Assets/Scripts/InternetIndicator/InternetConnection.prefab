@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1434777609, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: -1434777609, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1691622694, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: 1691622694, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1364990668, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: 1364990668, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3577117692187696779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877cc89ead3e5495aadd36f7f51517a4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f0c6596e6cd4580bda624841ee5fcac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GoodInternetSpeed: 1000
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2025150371, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: 2025150371, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1489487337, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: -1489487337, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1220701644, guid: 389ea7244cdb341a4b5e0a163c1e44b3, type: 3}
+  m_Sprite: {fileID: -1220701644, guid: 91017d08023c4544afab176a66487b1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

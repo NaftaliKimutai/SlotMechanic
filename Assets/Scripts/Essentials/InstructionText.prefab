@@ -70,8 +70,8 @@ MonoBehaviour:
     a winning combination, you get extra bonuses based on the symbol of the special
     reel!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
-  m_sharedMaterial: {fileID: 2236375997432499111, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
+  m_sharedMaterial: {fileID: 2236375997432499111, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6277710692483733615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 5779551102568098594}

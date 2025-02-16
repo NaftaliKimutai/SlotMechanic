@@ -628,8 +628,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 4.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -989,8 +989,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fairness
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1204,8 +1204,8 @@ MonoBehaviour:
     is interrupted, the jackpot amounts and player contributions will not be impacted
     by this interruption and the values will be recovered when the jackpot resumes.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1340,8 +1340,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'The corresponding numbers of selections are as follows:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1476,8 +1476,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Start: Tap to start base on the current bet'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1726,8 +1726,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1868,8 +1868,8 @@ MonoBehaviour:
     seed, client
     seeds, and a random number.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2004,8 +2004,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jackpot RTP = 4.00%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2478,8 +2478,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jackpot as follows
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2689,8 +2689,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Game rules: Tap to show the game rules and function button'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3126,8 +3126,8 @@ MonoBehaviour:
   m_text: 'Fairness: Tap to confirm the current active server seed(Hashed) and active
     client seed, and you can modify the active client seed before starting the game.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3374,7 +3374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 03adaaa27063b4a109d8f01b5abe4094, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76316cc152cb4db8824b22cbd7ec62e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3582,8 +3582,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jackpot
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4169,8 +4169,8 @@ MonoBehaviour:
     of the customer's gameble and where the customer can have no futher influence
     on the outcome of the event or gamble the results of the gamble should stand.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4383,8 +4383,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4949,8 +4949,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Mines Select: Tap to adjust the mines number.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5349,8 +5349,8 @@ MonoBehaviour:
   m_text: 'Auto Spin: Tap to start the auto play, and click again to stop the auto
     spin.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5824,8 +5824,8 @@ MonoBehaviour:
   m_text: Te required number should be determined by the Player's customized number
     of mines.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5960,8 +5960,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Option: Tap to show the game instruction and sound button.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6136,8 +6136,8 @@ MonoBehaviour:
 
     communication with the server.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6324,8 +6324,8 @@ MonoBehaviour:
 
     Maximum bet:  100'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6536,8 +6536,8 @@ MonoBehaviour:
   m_text: Use <sprite name="cashout"> to get the accumulative multiplier of the round
     before the game ends.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6674,8 +6674,8 @@ MonoBehaviour:
     of selections you completed has met the requirement, you will have a chance</color>
     to draw jackpot, of which results will be reset at the end of the round.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6887,8 +6887,8 @@ MonoBehaviour:
     their gaming histories, and thus acknowledge that the platform did not falsify
     any outcomes.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7177,8 +7177,8 @@ MonoBehaviour:
     multipliers. The more you receive,the higher the multiplier. Receiving <sprite
     name="bomb"> will clear your amount of winnings and end the game.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7651,7 +7651,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 03adaaa27063b4a109d8f01b5abe4094, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76316cc152cb4db8824b22cbd7ec62e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7898,8 +7898,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Jackpot List: Tap to confirm nearly 50 current Jackpot winning records.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8036,8 +8036,8 @@ MonoBehaviour:
     to win a MINI jackpot at the same time. Only the largest award will be displayed
     during the performance.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8173,8 +8173,8 @@ MonoBehaviour:
   m_text: 'History: Click to inquire about detailed records of bets placed with this
     account'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8685,8 +8685,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mines
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9313,8 +9313,8 @@ MonoBehaviour:
   m_text: If the Internet disconnects when playing the game, the syste will automatically
     cash out your winnings and end the game.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9599,8 +9599,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Cashout: Tap to start the autoplay,and click again to stop the auto spin.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9735,8 +9735,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9870,7 +9870,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f4c7dfe7e3aa450fb7df078d381fb4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa22cff25b54be8bb7062d6c55d8887, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9946,7 +9946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f4c7dfe7e3aa450fb7df078d381fb4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa22cff25b54be8bb7062d6c55d8887, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10248,8 +10248,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10404,7 +10404,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6672582079129756190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7464c841672d43c09733b4ecccd19df, type: 3}
+  m_Script: {fileID: 11500000, guid: 721594284ca5495d8777e7deeb5b24b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LandScapeView: {fileID: 4157702855539671376}
@@ -10478,8 +10478,8 @@ MonoBehaviour:
     the random number before each round, so players can refresh their client seeds
     accordingly with click Change button.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10727,8 +10727,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Sound: Tap to turn sound ON or OFF.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11088,8 +11088,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mines
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11374,8 +11374,8 @@ MonoBehaviour:
   m_text: <color="red">0.7% </color>of the bet amount will be contributed to the
     progressive jackpots.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11812,8 +11812,8 @@ MonoBehaviour:
     panels. The seed min value for the jackpot is <sprite name="loading"> and there
     is no upper limit.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12094,7 +12094,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f4c7dfe7e3aa450fb7df078d381fb4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa22cff25b54be8bb7062d6c55d8887, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12399,8 +12399,8 @@ MonoBehaviour:
   m_text: To prevent anyone from predicting the result, we will not disclose the
     server seed but announce the hash seed value.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13064,7 +13064,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f4c7dfe7e3aa450fb7df078d381fb4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa22cff25b54be8bb7062d6c55d8887, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13180,8 +13180,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Bet Select: Tap to adjust the mines number.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13616,8 +13616,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13754,8 +13754,8 @@ MonoBehaviour:
     a winning combination, you get extra bonuses based on the symbol of the special
     reel!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44eb99416ad464293b8298b8e6361e9f, type: 2}
-  m_sharedMaterial: {fileID: -8830351474453008487, guid: 44eb99416ad464293b8298b8e6361e9f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 70dc0bee590649a39740a8b1ce6514b4, type: 2}
+  m_sharedMaterial: {fileID: -8830351474453008487, guid: 70dc0bee590649a39740a8b1ce6514b4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

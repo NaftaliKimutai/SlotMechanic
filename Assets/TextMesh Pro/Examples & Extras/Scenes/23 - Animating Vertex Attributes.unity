@@ -384,7 +384,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992478845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ed57967c52645d390a89dcf8f61ba73, type: 3}
+  m_Script: {fileID: 11500000, guid: 26273581e1754ede894e03cd70bd8427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AngleMultiplier: 1
@@ -412,8 +412,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Animating Vertex Attributes
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 749b9069dc4742c5bfa5c74644049926, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a93d3eff8d8940349cd08c3a98be436c, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: ed5a57a121114b2da200164d636fe7aa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -515,6 +515,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992478845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91b8ba3d52e041fab2d0e0f169855539, type: 3}
+  m_Script: {fileID: 11500000, guid: 16c74ff5fd264c47a525f9b6a39d73d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

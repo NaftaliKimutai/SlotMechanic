@@ -146,7 +146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1971729958297486182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 4905232354668667846}
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f495e895c82f49dc8b1d0a881c2bca0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6adac67dd96346729c6b1164581bc05d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6180848266634758545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1147576215180724928}
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6990122468638935461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7704d5b62c02b4e67889e1d946ae82d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5796b470f12b45599109b2f26b7b9299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TheType: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7114826834946430965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 5162807460682795015}
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f7c4b18ecb984b6e86b5812465b0a19, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6de9877b16814d599e78b85d8f1f0373, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -252,7 +252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 429612790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c07d014daa18144b9b4f1224d72fdce7, type: 3}
+  m_Script: {fileID: 11500000, guid: 70a2f3cd7f8645b9b16c6ccfb485fbf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveLanguage: 0
@@ -764,8 +764,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Language
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
-  m_sharedMaterial: {fileID: 2236375997432499111, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
+  m_sharedMaterial: {fileID: 2236375997432499111, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -850,7 +850,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1456099409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1456099411}
@@ -915,8 +915,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Showcase
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
-  m_sharedMaterial: {fileID: 2236375997432499111, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
+  m_sharedMaterial: {fileID: 2236375997432499111, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459789692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1459789694}
@@ -1170,8 +1170,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Translate
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
-  m_sharedMaterial: {fileID: 2236375997432499111, guid: e69e4e6d42f2a48d3808ccfc8ca95a07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
+  m_sharedMaterial: {fileID: 2236375997432499111, guid: d4b6aba4ba70411cbda0fb1109f74c2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1818218200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba4b49b61d0c84677af1f5fe68031f4b, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7a2fe8d54f4684b2cb042296c7288a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myText: {fileID: 1818218202}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 74eb9de4d8154f52b599cce897798b52
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 120751
+  packageName: 'Publisher in Asset Store: How to Sell and Create Assets for Unity?
+    Tutorial'
+  packageVersion: 2.1
+  assetPath: Assets/Makaka Games/Publisher/GUID Regenerator/GUIDRegenerator.cs
+  uploadId: 644087

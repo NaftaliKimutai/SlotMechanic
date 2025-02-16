@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Electronic Highway Sign SDF Material
-  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_Shader: {fileID: 4800000, guid: b0d21eb09cae447da285ea693611753e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Version: 1.1.0
   m_Material: {fileID: 2140032}
   m_SourceFontFileGUID: 8a2b9e2a607dd2143b58c44bc32410b4
-  m_SourceFontFile: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+  m_SourceFontFile: {fileID: 12800000, guid: 5e3d1a46219f4221ac824321022d74f5, type: 3}
   m_AtlasPopulationMode: 1
   InternalDynamicOS: 0
   m_FaceInfo:

@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0 D 10 H  27 M
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5eb0cf951de26436e81fbfb0bf57e19f, type: 2}
-  m_sharedMaterial: {fileID: -3953156219345647973, guid: 5eb0cf951de26436e81fbfb0bf57e19f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5bcc56f3da2d44d4a0a3a341731d8a97, type: 2}
+  m_sharedMaterial: {fileID: -3953156219345647973, guid: 5bcc56f3da2d44d4a0a3a341731d8a97, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a95b6c4c3662848d4b92cf638e74ccf9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1bbb12d7f3a4496b8d415f683fd678d9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 389164352, guid: 70bc0360d54214f179731ceace5273fa, type: 3}
+  m_Sprite: {fileID: 389164352, guid: d4fb1ddbeef1413b801c3603dd1ef970, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 389164352, guid: 70bc0360d54214f179731ceace5273fa, type: 3}
+  m_Sprite: {fileID: 389164352, guid: d4fb1ddbeef1413b801c3603dd1ef970, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -428,8 +428,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Countdown
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17a54636a03f64b1a946c9ddf57ba96a, type: 2}
-  m_sharedMaterial: {fileID: 6060177273563035168, guid: 17a54636a03f64b1a946c9ddf57ba96a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d0473a823d5a49a3821a90bc31f85ade, type: 2}
+  m_sharedMaterial: {fileID: 6060177273563035168, guid: d0473a823d5a49a3821a90bc31f85ade, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8382992071632476675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf471f269f5c34cf19b82f2355ac1718, type: 3}
+  m_Script: {fileID: 11500000, guid: 65de8ea0fda547aeab2b43075da27b6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TimeText: {fileID: 5096598259916008664}

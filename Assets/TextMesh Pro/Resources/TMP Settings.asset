@@ -24,7 +24,7 @@ MonoBehaviour:
   m_missingGlyphCharacter: 0
   m_ClearDynamicDataOnBuild: 1
   m_warningsDisabled: 0
-  m_defaultFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_defaultFontAsset: {fileID: 11400000, guid: 8269cbba57ac4c6f9bdd625c80d1a285, type: 2}
   m_defaultFontAssetPath: Fonts & Materials/
   m_defaultFontSize: 36
   m_defaultAutoSizeMinRatio: 0.5
@@ -34,20 +34,20 @@ MonoBehaviour:
   m_autoSizeTextContainer: 0
   m_IsTextObjectScaleStatic: 0
   m_fallbackFontAssets:
-  - {fileID: 11400000, guid: 8da73d23d37674d2180cfa146ecaf85c, type: 2}
-  - {fileID: 11400000, guid: 0bd6040c0b4e04929837297c08185c3b, type: 2}
-  - {fileID: 11400000, guid: bf2d33e6d270f4e1885375ebe09ffc8d, type: 2}
-  - {fileID: 11400000, guid: 57dbf8ac12fa4472baba087396d756db, type: 2}
+  - {fileID: 11400000, guid: 664d479ca7df4a06bdcff1ab643383b7, type: 2}
+  - {fileID: 11400000, guid: 54e626fb1c6843a49b0e5508440f8de3, type: 2}
+  - {fileID: 11400000, guid: 0daa9e5b2c3d44709047d558678b6a37, type: 2}
+  - {fileID: 11400000, guid: f627aedb100e49aebf26f1835e9c690e, type: 2}
   m_matchMaterialPreset: 1
   m_HideSubTextObjects: 0
-  m_defaultSpriteAsset: {fileID: 11400000, guid: c41005c129ba4d66911b75229fd70b45, type: 2}
+  m_defaultSpriteAsset: {fileID: 11400000, guid: 98a67a46a74d41cc9b55d653855fe5a0, type: 2}
   m_defaultSpriteAssetPath: Sprite Assets/
   m_enableEmojiSupport: 1
   m_MissingCharacterSpriteUnicode: 0
   m_EmojiFallbackTextAssets: []
   m_defaultColorGradientPresetsPath: Color Gradient Presets/
-  m_defaultStyleSheet: {fileID: 11400000, guid: f952c082cb03451daed3ee968ac6c63e, type: 2}
+  m_defaultStyleSheet: {fileID: 11400000, guid: b4b368b02b1e4044b412083495e04add, type: 2}
   m_StyleSheetsResourcePath: 
-  m_leadingCharacters: {fileID: 4900000, guid: d82c1b31c7e74239bff1220585707d2b, type: 3}
-  m_followingCharacters: {fileID: 4900000, guid: fade42e8bc714b018fac513c043d323b, type: 3}
+  m_leadingCharacters: {fileID: 4900000, guid: cc490059c375424b8943685f6f43f27c, type: 3}
+  m_followingCharacters: {fileID: 4900000, guid: 5e88614edc9a4fd79736f26ba7349f43, type: 3}
   m_UseModernHangulLineBreakingRules: 0
