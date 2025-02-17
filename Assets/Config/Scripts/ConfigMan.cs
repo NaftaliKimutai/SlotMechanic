@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
+[System.Serializable]
+public class ConfigRefresh : UnityEvent { }
 public class ConfigMan : MonoBehaviour
 {
     public static ConfigMan Instance;
@@ -11,6 +14,7 @@ public class ConfigMan : MonoBehaviour
     public string PlayerId;
     public string GameId;
     public string ClientId;
+    public ConfigRefresh Refresh;
 
 
     [Header("Debug Canvas")]
@@ -61,6 +65,12 @@ public class ConfigMan : MonoBehaviour
         PlayerId = TheId;
         ReceivedConfigs = true;
         Debug.Log("TheFetchedPlayerIdIs_" + TheId);
+        Invoke(nameof(RefreshConfig), 0.1f);
+    }
+    void RefreshConfig()
+    {
+        Refresh.Invoke();
+
     }
     public void PassGameId(string Id)
     {
