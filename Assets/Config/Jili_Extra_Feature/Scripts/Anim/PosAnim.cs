@@ -10,7 +10,6 @@ public class Posanimdata
 }
 public class PosAnim : MonoBehaviour
 {
-    public bool DontResetOnGamestart;
     public bool UseScale;
     public bool IsLoop = true;
     float timestamp;
@@ -48,18 +47,8 @@ public class PosAnim : MonoBehaviour
             {
                 if (IsLoop)
                 {
-                    if (DontResetOnGamestart)
-                    {
-                        if (!GameManager.Instance.IsGameStarted)
-                        {
-                            ResetAnim();
-                        }
-                    }
-                    else
-                    {
-                        ResetAnim();
+                    ResetAnim();
 
-                    }
                 }
             }
             else
