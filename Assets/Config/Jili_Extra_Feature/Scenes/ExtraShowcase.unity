@@ -2227,9 +2227,9 @@ RectTransform:
   - {fileID: 2461598014022304493}
   m_Father: {fileID: 7508565899486613908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -142}
   m_SizeDelta: {x: 89, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131458519342050324
@@ -2746,7 +2746,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c9daf9acdeb24f2580afd495dcad8d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd43c47e164843a090085bd8d1c2f799, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4557,7 +4557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 130024020ab55424a8a8a77cd8a6bf7b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6c891410358497a9b5937a5c855d14d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5747,7 +5747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9bc19ba734e884068a9d0b43fc94e1b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56216597b3d045c1bdb56e37a82702c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6142,7 +6142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 84f38cb93c23a49598d9a044856670fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4501f05d3c245f9baa4401e148caa4f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8686,7 +8686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8bc59db6e19ec491d81014f0781dfb14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc345f9f53644f3d93e3a27a7bcf1098, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10514,7 +10514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 130024020ab55424a8a8a77cd8a6bf7b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6c891410358497a9b5937a5c855d14d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13754,7 +13754,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1466621175, guid: 0a0ceaeaf131c42d384fcf0d39e1bdd8, type: 3}
+  m_Sprite: {fileID: 1122396517, guid: af01e3add2bd4bb0a5e90c472b2a0956, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14722,7 +14722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1873649966, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
+  m_Sprite: {fileID: -1800307538, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17397,7 +17397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1594956369, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
+  m_Sprite: {fileID: -1800307538, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19145,9 +19145,9 @@ RectTransform:
   - {fileID: 9207240796730580752}
   m_Father: {fileID: 7508565899486613908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -240}
   m_SizeDelta: {x: 89, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762058285033614934
@@ -20404,7 +20404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 907609734, guid: 67c0d7da764b45ef8d3b50971417afd9, type: 3}
+  m_Sprite: {fileID: -551463112, guid: 67c0d7da764b45ef8d3b50971417afd9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21983,7 +21983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2057720261028993801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22440,7 +22440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -207368669, guid: 67c0d7da764b45ef8d3b50971417afd9, type: 3}
+  m_Sprite: {fileID: -551463112, guid: 67c0d7da764b45ef8d3b50971417afd9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24314,7 +24314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a6abc8ce4a194f8aa59271733cbcfc9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7bf7646545f9497ebb38edaae707e114, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31777,7 +31777,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1594956369, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
+  m_Sprite: {fileID: -1800307538, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -34041,7 +34041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -37634,7 +37634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -40668,7 +40668,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43722,7 +43722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1594956369, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
+  m_Sprite: {fileID: -1800307538, guid: 6241bad180db4a81a5286f5cedf627f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49182,7 +49182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7ea317eb5203b4213b0ab97b7538ea12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 221c094258e74c72b87f59ce698375b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49752,7 +49752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9bc19ba734e884068a9d0b43fc94e1b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56216597b3d045c1bdb56e37a82702c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -53176,7 +53176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 578c651133f5742f6b579585219d669d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4f3ac8af23647988aadaa03c4b7033e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -58868,7 +58868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa286b4b7c66048f5bf4ec7c53565e3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 343fcd32745c4b28a032d3c517908a0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -61538,7 +61538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3c97a614a200149f4aa5f0bebb112972, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f18e2a4890354a028ddbb64a675602b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -65410,7 +65410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -72170,7 +72170,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -72505,7 +72505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 758770575, guid: 3fea769da606459a950006a8fb11f147, type: 3}
+  m_Sprite: {fileID: -11392981, guid: 3fea769da606459a950006a8fb11f147, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -72696,7 +72696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6772158295407632348, guid: 3bb8ee8a3cb154cd5b81d7f436b13a54, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860871206036778231, guid: 3bb8ee8a3cb154cd5b81d7f436b13a54, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -73105,7 +73105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -75957,6 +75957,5596 @@ MonoBehaviour:
   - {fileID: 7814543918766627674}
   - {fileID: 98190501685932184}
   - {fileID: 7296903927717216610}
+  TextureNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Atlas_14_0
+  - Atlas_8_0
+  - 
+  - E_Atlas_15_80
+  - E_Atlas_15_101
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - Atlas_14_0
+  - 
+  - Atlas_14_0
+  - 
+  - 
+  - Atlas_14_0
+  - E_Atlas_5_26
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Atlas_8_0
+  - 
+  - E_Atlas_19_7
+  - 
+  - E_Atlas_15_38
+  - E_Atlas_15_38
+  - E_Atlas_19_8
+  - 
+  - Atlas_8_0
+  - 
+  - E_Atlas_9_24
+  - E_Atlas_9_20
+  - 
+  - Atlas_8_0
+  - 
+  - 
+  - 
+  - 
+  - E_Atlas_15_60
+  - E_Atlas_15_69
+  - E_Atlas_15_69
+  - E_Atlas_15_58
+  - 
+  - E_Atlas_15_59
+  - E_Atlas_15_59
+  - E_Atlas_15_59
+  - E_Atlas_15_127
+  - E_ChestMask
+  - 
+  - 
+  - E_Atlas_15_38
+  - E_Atlas_15_38
+  - E_Atlas_15_38
+  - Atlas_4_0
+  - Atlas_4_0
+  - 
+  - 
+  - E_Atlas_15_80
+  - E_Atlas_15_101
+  - Knob
+  - E_JILI_NEW_1729150076
+  - 
+  - E_Atlas_18_38
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Luckyaguar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - E_Atlas_15_80
+  - E_Atlas_15_101
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Luckyaguar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Loading
+  - 
+  - 
+  - 
+  - Loading
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Crazy777Logo
+  - More_Atlas_3_0
+  - 
+  - More_Atlas_3_0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - FeautreLogos_0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv4
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - rank-lv5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - UISprite
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - UISprite
+  - 
+  - DropdownArrow
+  - UISprite
+  - UIMask
+  - 
+  - 
+  - 
+  - Checkmark
+  - 
+  - Background
+  - 
+  - UISprite
+  - InputFieldBackground
+  - 
+  - InputFieldBackground
+  - 
+  - InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Loading_Circle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Member
+  - 
+  - 
+  - 
+  - 
+  - 
+  - History
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Member
+  - 
+  - 
+  - 
+  - 
+  - 
+  - History
+  ThePath:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14.png
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101.png
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14.png
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_5_26.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_19_7.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_19_8.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_9_24.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_9_20.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8.png
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_60.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_69.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_69.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_58.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_127.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_ChestMask.png
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_4.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_4.png
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101.png
+  - Resources/unity_builtin_extra
+  - Assets/Config/Jili_Extra_Feature/Textures/E_JILI_NEW_1729150076.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_18_38.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Luckyaguar.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80.png
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101.png
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Luckyaguar.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading.png
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Crazy777Logo.png
+  - Assets/Config/Jili_Extra_Feature/Textures/More_Atlas_3.png
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/More_Atlas_3.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/FeautreLogos.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv0.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv1.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv2.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv3.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv4.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv5.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/unity_builtin_extra
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading_Circle.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Member.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/History.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Member.png
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/History.png
+  SpritePath:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14_0
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8_0
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14_0
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14_0
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_14_0
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_5_26
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8_0
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_19_7
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_19_8
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8_0
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_9_24
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_9_20
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_8_0
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_60
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_69
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_69
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_58
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_59
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_127
+  - Assets/Config/Jili_Extra_Feature/Textures/E_ChestMask
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_38
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_4_0
+  - Assets/Config/Jili_Extra_Feature/Textures/Atlas_4_0
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101
+  - Resources/Knob
+  - Assets/Config/Jili_Extra_Feature/Textures/E_JILI_NEW_1729150076
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_18_38
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Luckyaguar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_80
+  - Assets/Config/Jili_Extra_Feature/Textures/E_Atlas_15_101
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Luckyaguar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Crazy777Logo
+  - Assets/Config/Jili_Extra_Feature/Textures/More_Atlas_3_0
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/More_Atlas_3_0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/FeautreLogos_0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/Knob
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv0
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv4
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/rank-lv5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Banner_1_en-US
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/UISprite
+  - 
+  - Resources/DropdownArrow
+  - Resources/UISprite
+  - Resources/UIMask
+  - 
+  - 
+  - 
+  - Resources/Checkmark
+  - 
+  - Resources/Background
+  - 
+  - Resources/UISprite
+  - Resources/InputFieldBackground
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Resources/InputFieldBackground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Loading_Circle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Member
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/History
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/Member
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Assets/Config/Jili_Extra_Feature/Textures/History
+  TheGuid: []
 --- !u!224 &6761581223657156515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -77943,7 +83533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c9daf9acdeb24f2580afd495dcad8d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd43c47e164843a090085bd8d1c2f799, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -79455,7 +85045,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 801415238, guid: 27e3f8f19843247c1b59647206959a43, type: 3}
+  m_Sprite: {fileID: 801415238, guid: 569d1f19249642dd842fcb8492491d1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -86291,7 +91881,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0.9}
-  m_SizeDelta: {x: 100, y: 0}
+  m_SizeDelta: {x: 100, y: 284}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7509668821954066878
 GameObject:
@@ -86543,7 +92133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d97b38bda2b604b27b93195f480761d8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa6679a5783a413784ad13c534622d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -86590,7 +92180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3d06bf55dc0df4ef8af63c8c2f8ec344, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85c08d41ae944742b0e67621ec16fd4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88866,7 +94456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 84f38cb93c23a49598d9a044856670fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4501f05d3c245f9baa4401e148caa4f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89539,7 +95129,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c039bd5189964eb5bb4e407fe645b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86275b48d7884cedaedb21947ab0f54f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -98656,9 +104246,9 @@ RectTransform:
   - {fileID: 2052033911814748217}
   m_Father: {fileID: 7508565899486613908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -44}
   m_SizeDelta: {x: 89, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8640514297693356696
@@ -99939,7 +105529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1778698510, guid: 0a0ceaeaf131c42d384fcf0d39e1bdd8, type: 3}
+  m_Sprite: {fileID: 1122396517, guid: af01e3add2bd4bb0a5e90c472b2a0956, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -103099,7 +108689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 758770575, guid: 3fea769da606459a950006a8fb11f147, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
