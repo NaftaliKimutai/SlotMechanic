@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
+[System.Serializable]
+public class ConfigRefresh : UnityEvent { }
 public class ConfigMan : MonoBehaviour
 {
     public static ConfigMan Instance;
@@ -11,6 +14,7 @@ public class ConfigMan : MonoBehaviour
     public string PlayerId;
     public string GameId;
     public string ClientId;
+    public ConfigRefresh Refresh;
 
 
     [Header("Debug Canvas")]
@@ -21,7 +25,7 @@ public class ConfigMan : MonoBehaviour
 
     void Start()
     {
-       
+
         DontDestroyOnLoad(this);
         Instance = this;
         if (!Application.isEditor)
@@ -61,6 +65,12 @@ public class ConfigMan : MonoBehaviour
         PlayerId = TheId;
         ReceivedConfigs = true;
         Debug.Log("TheFetchedPlayerIdIs_" + TheId);
+        Invoke(nameof(RefreshConfig), 0.1f);
+    }
+    void RefreshConfig()
+    {
+        Refresh.Invoke();
+
     }
     public void PassGameId(string Id)
     {
@@ -69,7 +79,7 @@ public class ConfigMan : MonoBehaviour
     }
     public void PassClientId(string Id)
     {
-        ClientId= Id;
+        ClientId = Id;
         Debug.Log("TheFetchedClientIdIs_" + ClientId);
     }
     public void CheckTextInput()
@@ -80,7 +90,7 @@ public class ConfigMan : MonoBehaviour
         }
         if (!string.IsNullOrEmpty(GameIdText.text))
         {
-           PassGameId(GameIdText.text);
+            PassGameId(GameIdText.text);
         }
         if (!string.IsNullOrEmpty(ClientIdText.text))
         {
