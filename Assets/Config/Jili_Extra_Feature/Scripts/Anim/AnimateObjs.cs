@@ -21,13 +21,13 @@ public class AnimateObjs : MonoBehaviour
                     Objs[i].SetActive(false);
                 }
             }
-            Timestamp = Time.time+Rate;
+            Timestamp = Time.time + Rate;
             Active += 1;
             if (Active > Objs.Length - 1)
             {
                 Active = 0;
             }
         }
-    
+
     }
 }
