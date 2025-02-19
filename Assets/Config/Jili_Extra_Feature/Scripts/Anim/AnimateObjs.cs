@@ -42,4 +42,19 @@ public class AnimateObjs : MonoBehaviour
         }
 
     }
+    public void ResetAnim()
+    {
+        Active = 0;
+        for (int i = 0; i < Objs.Length; i++)
+        {
+            if (i == Active)
+            {
+                Objs[i].SetActive(true);
+            }
+            else
+            {
+                Objs[i].SetActive(false);
+            }
+        }
+    }
 }
