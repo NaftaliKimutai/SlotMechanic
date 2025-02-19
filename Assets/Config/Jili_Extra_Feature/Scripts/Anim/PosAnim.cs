@@ -1,4 +1,8 @@
 using UnityEngine;
+using UnityEngine.Events;
+[System.Serializable]
+public class PosAnimEnd : UnityEvent { }
+
 [System.Serializable]
 public class Posanimdata
 {
@@ -20,6 +24,7 @@ public class PosAnim : MonoBehaviour
     float Speed;
     float ScaleSpeed;
     public Transform TargetTrans;
+    public PosAnimEnd OnPosAnimEnd;
     private void OnEnable()
     {
         ResetAnim();
@@ -50,6 +55,7 @@ public class PosAnim : MonoBehaviour
                     ResetAnim();
 
                 }
+                OnPosAnimEnd.Invoke();
             }
             else
             {

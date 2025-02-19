@@ -1,11 +1,14 @@
 using UnityEngine;
-
+using UnityEngine.Events;
+[System.Serializable]
+public class AnimateObjsEnd : UnityEvent { }
 public class AnimateObjs : MonoBehaviour
 {
     public float Rate = 0.1f;
     public GameObject[] Objs;
     float Timestamp;
     int Active;
+    public AnimateObjsEnd OnEnd;
     void Update()
     {
         if (Timestamp < Time.time)
@@ -26,6 +29,7 @@ public class AnimateObjs : MonoBehaviour
             if (Active > Objs.Length - 1)
             {
                 Active = 0;
+                OnEnd.Invoke();
             }
         }
 

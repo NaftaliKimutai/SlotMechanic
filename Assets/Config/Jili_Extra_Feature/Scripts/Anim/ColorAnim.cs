@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
+[System.Serializable]
+public class ColorAnimEnd : UnityEvent { }
 [System.Serializable]
 public class Color_animdata
 {
@@ -8,6 +11,7 @@ public class Color_animdata
     public float Speed = 2f;
     public Color TargetColor = Color.white;
 }
+
 public class ColorAnim : MonoBehaviour
 {
     public bool IsRandom;
@@ -21,6 +25,7 @@ public class ColorAnim : MonoBehaviour
     public Outline TheOutline;
     Color TheColor;
     float Speed;
+    public ColorAnimEnd OnColorAnimEnd;
     private void OnEnable()
     {
         ResetAnim();
@@ -61,6 +66,8 @@ public class ColorAnim : MonoBehaviour
                 {
                     ResetAnim();
                 }
+                OnColorAnimEnd.Invoke();
+
 
             }
             else

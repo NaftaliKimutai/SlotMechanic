@@ -1,4 +1,7 @@
 using UnityEngine;
+using UnityEngine.Events;
+[System.Serializable]
+public class ScaleAnimEnd : UnityEvent { }
 [System.Serializable]
 public class animdata
 {
@@ -14,6 +17,7 @@ public class ScaleAnim : MonoBehaviour
     public animdata[] TargetData;
     Vector3 TheScale;
     float Speed;
+    public ScaleAnimEnd OnScaleAnimEnd;
     private void OnEnable()
     {
         ResetAnim();
@@ -35,7 +39,7 @@ public class ScaleAnim : MonoBehaviour
                 {
                     ResetAnim();
                 }
-
+                OnScaleAnimEnd.Invoke();
             }
             else
             {
