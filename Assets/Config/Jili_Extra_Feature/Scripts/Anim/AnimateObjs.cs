@@ -4,6 +4,7 @@ using UnityEngine.Events;
 public class AnimateObjsEnd : UnityEvent { }
 public class AnimateObjs : MonoBehaviour
 {
+    public bool IsLoop = true;
     public float Rate = 0.1f;
     public GameObject[] Objs;
     float Timestamp;
@@ -28,7 +29,14 @@ public class AnimateObjs : MonoBehaviour
             Active += 1;
             if (Active > Objs.Length - 1)
             {
-                Active = 0;
+                if (IsLoop)
+                {
+                    Active = 0;
+                }
+                else
+                {
+                    Active = Objs.Length - 1;
+                }
                 OnEnd.Invoke();
             }
         }
