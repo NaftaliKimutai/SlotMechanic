@@ -30,7 +30,7 @@ public class ColorAnim : MonoBehaviour
     {
         ResetAnim();
     }
-    void ResetAnim()
+    public void ResetAnim()
     {
         if (IsRandom)
         {
