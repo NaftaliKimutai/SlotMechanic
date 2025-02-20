@@ -14,7 +14,6 @@ public class ViewControl_Obj : MonoBehaviour
             return;
         }
 #endif
-        LandScape.gameObject.SetActive(false);
         Potrait.gameObject.SetActive(true);
         if (TheObj)
         {
@@ -24,6 +23,8 @@ public class ViewControl_Obj : MonoBehaviour
             TheObj.transform.localPosition = Vector3.zero;
             TheObj.transform.localScale = Vector3.one;
         }
+        LandScape.gameObject.SetActive(false);
+
         SetArray(Potrait);
 
     }
@@ -36,7 +37,6 @@ public class ViewControl_Obj : MonoBehaviour
         }
 #endif
         LandScape.gameObject.SetActive(true);
-        Potrait.gameObject.SetActive(false);
         if (TheObj)
         {
             TheObj.transform.SetParent(LandScape);
@@ -44,6 +44,8 @@ public class ViewControl_Obj : MonoBehaviour
             TheObj.transform.localPosition = Vector3.zero;
             TheObj.transform.localScale = Vector3.one;
         }
+        Potrait.gameObject.SetActive(false);
+
         SetArray(LandScape);
     }
     void SetArray(Transform TheParent)
