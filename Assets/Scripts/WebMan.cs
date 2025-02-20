@@ -110,7 +110,7 @@ public class WebMan : MonoBehaviour
     public PlayerInfo playerInfo;
     public bool IsFetched;
     public string MaxMultiplier;
-    public string Customer_Id = "4";
+    public string Player_Id = "4";
     public string Game_Id = "1234";
     public string Client_id = "12345";
     public bool IsTest;
@@ -167,7 +167,7 @@ public class WebMan : MonoBehaviour
     public void MakeWithdrawal(float _Amount)
     {
         MakeWithdrawalData Data = new MakeWithdrawalData();
-        Data.customer_id = int.Parse(Customer_Id);
+        Data.customer_id = int.Parse(Player_Id);
         Data.amount = _Amount;
         string jsonString = JsonUtility.ToJson(Data);
         string TheUrl = ServerLink + "/api/withdraw/money";
@@ -202,7 +202,7 @@ public class WebMan : MonoBehaviour
     {
         AddCashData Data = new AddCashData();
         Data.transaction_id= UnityEngine.Random.Range(100, 10000000).ToString()+"_"+ UnityEngine.Random.Range(100, 10000000).ToString();
-        Data.customer_id =int.Parse(Customer_Id);
+        Data.customer_id =int.Parse(Player_Id);
         Data.amount = _Amount;
         string jsonString = JsonUtility.ToJson(Data);
         StartCoroutine(_AddCashAmount(ServerLink + "/api/v1/add_game_payment", jsonString));
@@ -248,7 +248,7 @@ public class WebMan : MonoBehaviour
         }
         else
         {
-            StartCoroutine(_FetchPlayerInfo(ServerLink + "/api/v1/customer/details?customer_id=" + Customer_Id));
+            StartCoroutine(_FetchPlayerInfo(ServerLink + "/api/v1/customer/details?customer_id=" + Player_Id));
         }
         GameManager.Instance.internetIndicator.CheckInternet();
     }

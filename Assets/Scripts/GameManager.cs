@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
             IsDemoMode = ConfigMan.Instance.IsDemo;
             if (ConfigMan.Instance.ReceivedConfigs)
             {
-                webMan.Customer_Id = ConfigMan.Instance.PlayerId.ToString();
+                webMan.Player_Id= ConfigMan.Instance.PlayerId.ToString();
                 if (!string.IsNullOrEmpty(ConfigMan.Instance.GameId))
                 {
                     webMan.Game_Id = ConfigMan.Instance.GameId;
