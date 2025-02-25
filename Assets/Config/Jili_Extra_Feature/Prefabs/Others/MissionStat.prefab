@@ -149,6 +149,7 @@ MonoBehaviour:
   TotalBetText: {fileID: 4150426451700907739}
   FillSlider: {fileID: 7908499178429206656}
   Level: 0
+  IconImage: {fileID: 3501172576426003274}
 --- !u!1 &349857089209670658
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +198,7 @@ GameObject:
   - component: {fileID: 5437942228053026696}
   - component: {fileID: 3501172576426003274}
   m_Layer: 5
-  m_Name: Image
+  m_Name: IconImg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

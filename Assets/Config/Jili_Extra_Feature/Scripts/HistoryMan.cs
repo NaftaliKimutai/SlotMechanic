@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using System.Collections;
 
 public class HistoryMan : MonoBehaviour
 {
@@ -47,6 +49,20 @@ public class HistoryMan : MonoBehaviour
             SpawnedBtns.Add(go);
 
         }
+       // StartCoroutine(Refresh());
+        SpawnTrans.GetComponent<Image>().enabled = false;
+        Invoke(nameof(DelayUpdate), 0.1f);
+    }
+    void DelayUpdate()
+    {
+        SpawnTrans.GetComponent<Image>().enabled = true;
+
+    }
+    IEnumerator Refresh()
+    {
+        SpawnTrans.GetComponent<Image>().enabled = true;
+        yield return new WaitForEndOfFrame();
+        SpawnTrans.GetComponent<Image>().enabled = true;
     }
 
 }

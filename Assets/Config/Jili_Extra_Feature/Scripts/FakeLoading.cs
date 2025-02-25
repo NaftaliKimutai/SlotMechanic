@@ -12,8 +12,15 @@ public class FakeLoading : MonoBehaviour
         }
         gameObject.SetActive(true);
     }
+    [ContextMenu("TestLoad")]
+    void TestLoading()
+    {
+        Open(5);
+    }
     void Update()
     {
+        if (!ExtraMan.Instance.games_Catalog.IsLoaded)
+            return;
         if (timestamp <0)
         {
             gameObject.SetActive(false);

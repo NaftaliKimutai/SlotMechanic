@@ -16,6 +16,7 @@ public class Game_Data
     public string game_description;
     public string game_type = "Normal";
     public Sprite ThePromoIcon;
+    public bool IsLoaded;
 }
 [System.Serializable]
 public class GameList
@@ -26,6 +27,7 @@ public class GameList
 
 public class Games_Catalog : MonoBehaviour
 {
+    public bool IsLoaded;
     public string ServerLink = "https://admin-api.ibibe.africa";
     public GameList gameList;
     void Start()
@@ -35,6 +37,8 @@ public class Games_Catalog : MonoBehaviour
     [ContextMenu("FetchGames")]
     public void FetchGames()
     {
+        ExtraMan.Instance.fakeLoading.Open(1);
+        IsLoaded = false;
         StartCoroutine(_FetchGames(ServerLink + "/api/v1/games/"));
     }
     IEnumerator _FetchGames(string url)
@@ -49,9 +53,10 @@ public class Games_Catalog : MonoBehaviour
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                Debug.Log("Received: " + www.downloadHandler.text);
+                //Debug.Log("Received: " + www.downloadHandler.text);
                 gameList = JsonUtility.FromJson<GameList>("{\"games\":" + www.downloadHandler.text + "}");
                 Array.Reverse(gameList.games);
+                DownloadPromoImages();
             }
             else
             {
@@ -78,56 +83,85 @@ public class Games_Catalog : MonoBehaviour
                 }
                 else
                 {
-
+                    gameList.games[i].IsLoaded = true;
+                    CheckIsFinishLoading();
                 }
+            }
+            else
+            {
+                gameList.games[i].IsLoaded = true;
+                CheckIsFinishLoading();
             }
 
         }
     }
     IEnumerator DownloadImage(string MediaUrl,int theId)
     {
-        Debug.Log(MediaUrl);
+        //Debug.Log(MediaUrl);
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
         yield return request.SendWebRequest();
         if (request.isNetworkError || request.isHttpError)
         {
-            Debug.Log(request.error);
+            gameList.games[theId].IsLoaded = true;
+            CheckIsFinishLoading();
+          //  Debug.Log(request.error);
         }
         else
         {
-            Debug.Log(request.downloadHandler.text);
+            gameList.games[theId].IsLoaded = true;
+            CheckIsFinishLoading();
+
+            //            Debug.Log(request.downloadHandler.text);
             Texture2D texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
-            byte[] imageBytes = texture.EncodeToPNG();
-            DestroyImmediate(texture);
-            string savePath =  "/Icons";
-            string FileName = "/Game_" + theId.ToString() + ".png";
-            if (SystemInfo.deviceType == DeviceType.Handheld)
+           // Debug.Log(MediaUrl);
+            if (texture)
             {
-                savePath =  "Icons";
-            }
-            else
-            {
-                savePath = Application.persistentDataPath + "/Icons";
-            }
-            DirectoryInfo DataFolder = new DirectoryInfo(savePath);
-            if (!DataFolder.Exists)
-            {
-                Directory.CreateDirectory(savePath);
-            }
-            if (DataFolder.Exists)
-            {
-                Debug.Log("PathAvailable");
-                GetFiles();
+                byte[] imageBytes = texture.EncodeToPNG();
+                DestroyImmediate(texture);
+                string savePath = "/Icons";
+                string FileName = "/Game_" + theId.ToString() + ".png";
+                if (SystemInfo.deviceType == DeviceType.Handheld)
+                {
+                    savePath = "Icons";
+                }
+                else
+                {
+                    savePath = Application.persistentDataPath + "/Icons";
+                }
+                DirectoryInfo DataFolder = new DirectoryInfo(savePath);
+                if (!DataFolder.Exists)
+                {
+                    Directory.CreateDirectory(savePath);
+                }
+                if (DataFolder.Exists)
+                {
+                    //Debug.Log("PathAvailable");
+                    GetFiles();
+
+                }
+                //Debug.Log(savePath);
+                System.IO.File.WriteAllBytes(savePath + FileName, imageBytes);
 
             }
-            Debug.Log(savePath);
-            System.IO.File.WriteAllBytes(savePath+FileName, imageBytes);
-
-          
-
 
             // gameList.games[theId].ThePromoIcon= ((DownloadHandlerTexture)request.downloadHandler).texture;
             //YourRawImage.texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+        }
+    }
+    void CheckIsFinishLoading()
+    {
+        bool isfinished = true;
+        for(int i = 0; i < gameList.games.Length; i++)
+        {
+            if (!gameList.games[i].IsLoaded)
+            {
+                isfinished = false;
+                break;
+            }
+        }
+        if (isfinished)
+        {
+            IsLoaded = true;
         }
     }
     public Sprite GetSavedIcon(int theId)
@@ -145,7 +179,7 @@ public class Games_Catalog : MonoBehaviour
         //DirectoryInfo DataFolder = new DirectoryInfo(savePath);
         if (!File.Exists(savePath+FileName))
         {
-            Debug.Log("NoFile_"+ savePath + FileName);
+            //Debug.Log("NoFile_"+ savePath + FileName);
             return null;
         }
         byte[] byteArray = File.ReadAllBytes(savePath+FileName);

@@ -8,6 +8,7 @@ public class MissionStat : MonoBehaviour
     public TMP_Text TotalBetText;
     public Slider FillSlider;
     public int Level;
+    public Image IconImage;
     private void OnEnable()
     {
         Refresh();
@@ -39,5 +40,6 @@ public class MissionStat : MonoBehaviour
         {
 
         }
+        IconImage.sprite = ExtraMan.Instance.games_Catalog.GetSavedIcon(ExtraMan.Instance.GameId);
     }
 }
