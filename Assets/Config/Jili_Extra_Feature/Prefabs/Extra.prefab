@@ -10617,7 +10617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2434229025063522596
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13799,6 +13799,9 @@ MonoBehaviour:
   TheImg: {fileID: 6663757403334524489}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1283161554281462103
 GameObject:
   m_ObjectHideFlags: 0
@@ -21771,6 +21774,9 @@ MonoBehaviour:
   TheImg: {fileID: 2584331110278387028}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1998551510065595196
 GameObject:
   m_ObjectHideFlags: 0
@@ -23531,6 +23537,9 @@ MonoBehaviour:
   TheImg: {fileID: 3005733058082896583}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2198600139941102737
 GameObject:
   m_ObjectHideFlags: 0
@@ -23944,6 +23953,9 @@ MonoBehaviour:
   TheImg: {fileID: 7753855498697518360}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2235482553933312719
 GameObject:
   m_ObjectHideFlags: 0
@@ -25933,6 +25945,9 @@ MonoBehaviour:
   TheImg: {fileID: 6332214105518820130}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2440784252897267896
 GameObject:
   m_ObjectHideFlags: 0
@@ -31778,6 +31793,9 @@ MonoBehaviour:
   TheImg: {fileID: 3369898152924822981}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3077292119493599497
 GameObject:
   m_ObjectHideFlags: 0
@@ -56979,22 +56997,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefffa0a9c2e040e7a9b684f32fa2f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseScale: 0
   IsLoop: 1
   Target: 1
   TargetData:
   - TargetTime: 1
     Speed: 1
     TargetPos: {x: -300, y: 0, z: 0}
-    UseScale: 0
     ScaleSpeed: 0
     TargetScale: {x: 0, y: 0, z: 0}
   - TargetTime: 1
     Speed: 3
     TargetPos: {x: 300, y: 0, z: 0}
-    UseScale: 0
     ScaleSpeed: 0
     TargetScale: {x: 0, y: 0, z: 0}
   TargetTrans: {fileID: 8085371164995339853}
+  OnPosAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5789189446655581193
 GameObject:
   m_ObjectHideFlags: 0
@@ -64630,6 +64650,9 @@ MonoBehaviour:
   TheImg: {fileID: 4507817799651329841}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6584157248357917583
 GameObject:
   m_ObjectHideFlags: 0
@@ -83679,22 +83702,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefffa0a9c2e040e7a9b684f32fa2f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseScale: 0
   IsLoop: 1
   Target: 1
   TargetData:
   - TargetTime: 1
     Speed: 1
     TargetPos: {x: -300, y: 0, z: 0}
-    UseScale: 0
     ScaleSpeed: 0
     TargetScale: {x: 0, y: 0, z: 0}
   - TargetTime: 1
     Speed: 3
     TargetPos: {x: 300, y: 0, z: 0}
-    UseScale: 0
     ScaleSpeed: 0
     TargetScale: {x: 0, y: 0, z: 0}
   TargetTrans: {fileID: 1064923890081036768}
+  OnPosAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8592511243970654360
 GameObject:
   m_ObjectHideFlags: 0
@@ -84846,6 +84871,9 @@ MonoBehaviour:
   TheImg: {fileID: 4295685593235042859}
   TheText: {fileID: 0}
   TheOutline: {fileID: 0}
+  OnColorAnimEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8693699258811456112
 GameObject:
   m_ObjectHideFlags: 0
