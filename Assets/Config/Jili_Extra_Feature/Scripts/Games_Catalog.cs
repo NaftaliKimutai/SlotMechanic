@@ -136,7 +136,6 @@ public class Games_Catalog : MonoBehaviour
                 if (DataFolder.Exists)
                 {
                     //Debug.Log("PathAvailable");
-                    GetFiles();
 
                 }
                 //Debug.Log(savePath);
@@ -194,28 +193,6 @@ public class Games_Catalog : MonoBehaviour
 
         return s;
     }
-    void GetFiles()
-    {
-        string savePath = "/Icons";
-        if (SystemInfo.deviceType == DeviceType.Handheld)
-        {
-            savePath = "Icons";
-        }
-        else
-        {
-            savePath = Application.persistentDataPath + "/Icons";
-        }
-        DirectoryInfo DataFolder = new DirectoryInfo(savePath);
-        string nametosearch = ".png";
-        FileInfo[] Datafiles = DataFolder.GetFiles("*" + nametosearch);
-        // FileInfo[] ImageFilesNames = new FileInfo[Datafiles.Length];
-       string[]ThePhotoNames = new string[Datafiles.Length];
-        List<string> names = new List<string>();
-        for (int i = 0; i < Datafiles.Length; i++)
-        {
-            ThePhotoNames[i] = Datafiles[i].Name;
-            Debug.Log(Datafiles[i].Name);
-        }
-    }
+    
 
 }
