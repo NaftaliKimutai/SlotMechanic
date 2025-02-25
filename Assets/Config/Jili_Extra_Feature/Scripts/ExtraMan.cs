@@ -8,6 +8,7 @@ public class ExtraMan : MonoBehaviour
     public MissionsMan missionsMan;
     public ExtraInfo infoTab;
     public FakeLoading fakeLoading;
+    public Games_Catalog games_Catalog;
     private void Awake()
     {
        
