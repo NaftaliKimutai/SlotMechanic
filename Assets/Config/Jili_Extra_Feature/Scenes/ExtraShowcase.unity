@@ -74178,6 +74178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb6d6a760673429796534f8d14e1400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ServerLink: https://admin-api.ibibe.africa
+  TheGames: []
 --- !u!1 &7075055404284567846
 GameObject:
   m_ObjectHideFlags: 0
