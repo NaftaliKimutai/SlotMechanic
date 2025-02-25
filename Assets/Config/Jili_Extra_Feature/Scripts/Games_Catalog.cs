@@ -16,6 +16,7 @@ public class Game_Data
     public string game_description;
     public string game_type = "Normal";
     public Sprite ThePromoIcon;
+    public int approved = 1;
     public bool IsLoaded;
 }
 [System.Serializable]
@@ -69,17 +70,25 @@ public class Games_Catalog : MonoBehaviour
     {
         for(int i = 0; i < gameList.games.Length; i++)
         {
-            string TheUrl = gameList.games[i].promotional_image_url;
-            if (TheUrl == "")
+            if (gameList.games[i].approved == 1)
             {
-                TheUrl = gameList.games[i].game_image_url;
-            }
-            if (TheUrl != "")
-            {
-                Sprite TheIcon = GetSavedIcon(i);
-                if (!TheIcon)
+                string TheUrl = gameList.games[i].promotional_image_url;
+                if (TheUrl == "")
                 {
-                    StartCoroutine(DownloadImage(TheUrl, i));
+                    TheUrl = gameList.games[i].game_image_url;
+                }
+                if (TheUrl != "")
+                {
+                    Sprite TheIcon = GetSavedIcon(i);
+                    if (!TheIcon)
+                    {
+                        StartCoroutine(DownloadImage(TheUrl, i));
+                    }
+                    else
+                    {
+                        gameList.games[i].IsLoaded = true;
+                        CheckIsFinishLoading();
+                    }
                 }
                 else
                 {

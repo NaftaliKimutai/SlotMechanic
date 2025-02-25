@@ -42,11 +42,14 @@ public class HistoryMan : MonoBehaviour
         ClearBtns();
         for(int i = 0; i < ExtraMan.Instance.games_Catalog.gameList.games.Length; i++)
         {
-            Game_Data _Game = ExtraMan.Instance.games_Catalog.gameList.games[i];
-            GameObject go = Instantiate(BtnPref, SpawnTrans);
-            go.GetComponent<HistoryBtn>().UpdateImage(ExtraMan.Instance.games_Catalog.GetSavedIcon(i));
-            go.GetComponent<HistoryBtn>().TheName = _Game.game_title;
-            SpawnedBtns.Add(go);
+            if (ExtraMan.Instance.games_Catalog.gameList.games[i].approved == 1)
+            {
+                Game_Data _Game = ExtraMan.Instance.games_Catalog.gameList.games[i];
+                GameObject go = Instantiate(BtnPref, SpawnTrans);
+                go.GetComponent<HistoryBtn>().UpdateImage(ExtraMan.Instance.games_Catalog.GetSavedIcon(i));
+                go.GetComponent<HistoryBtn>().TheName = _Game.game_title;
+                SpawnedBtns.Add(go);
+            }
 
         }
        // StartCoroutine(Refresh());
