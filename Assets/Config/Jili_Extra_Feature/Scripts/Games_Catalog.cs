@@ -130,7 +130,7 @@ public class Games_Catalog : MonoBehaviour
             //YourRawImage.texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
         }
     }
-    Sprite GetSavedIcon(int theId)
+    public Sprite GetSavedIcon(int theId)
     {
         string savePath = "/Icons";
         string FileName = "/Game_" + theId.ToString() + ".png";

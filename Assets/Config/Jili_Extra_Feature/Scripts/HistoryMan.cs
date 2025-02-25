@@ -42,6 +42,8 @@ public class HistoryMan : MonoBehaviour
         {
             Game_Data _Game = ExtraMan.Instance.games_Catalog.gameList.games[i];
             GameObject go = Instantiate(BtnPref, SpawnTrans);
+            go.GetComponent<HistoryBtn>().UpdateImage(ExtraMan.Instance.games_Catalog.GetSavedIcon(i));
+            go.GetComponent<HistoryBtn>().TheName = _Game.game_title;
             SpawnedBtns.Add(go);
 
         }
