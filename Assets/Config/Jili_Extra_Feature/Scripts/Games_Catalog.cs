@@ -57,6 +57,18 @@ public class Games_Catalog : MonoBehaviour
                 //Debug.Log("Received: " + www.downloadHandler.text);
                 gameList = JsonUtility.FromJson<GameList>("{\"games\":" + www.downloadHandler.text + "}");
                 Array.Reverse(gameList.games);
+                List<Game_Data> game_Datas = new List<Game_Data>();
+                Game_Data temp = new Game_Data();
+                temp.id = 0;
+                temp.game_image_url = "";
+                temp.promotional_image_url = "";
+                temp.game_title = "";
+                game_Datas.Add(temp);
+                for(int i = 0; i < gameList.games.Length; i++)
+                {
+                    game_Datas.Add(gameList.games[i]);
+                }
+                gameList.games = game_Datas.ToArray();
                 DownloadPromoImages();
             }
             else
