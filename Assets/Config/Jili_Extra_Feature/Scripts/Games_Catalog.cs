@@ -63,6 +63,7 @@ public class Games_Catalog : MonoBehaviour
                 temp.game_image_url = "";
                 temp.promotional_image_url = "";
                 temp.game_title = "";
+                temp.approved = 0;
                 game_Datas.Add(temp);
                 for(int i = 0; i < gameList.games.Length; i++)
                 {
