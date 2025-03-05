@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class FetchUserInfo : MonoBehaviour
 {
     public ConfigMan configMan;
-    public Toggle DemoToggle;
    
     public void SetPlayerId(string userId)
     {
@@ -24,9 +23,9 @@ public class FetchUserInfo : MonoBehaviour
         {
             configMan.IsDemo = false;
         }
-        if (DemoToggle)
+        if (configMan.DemoToggle)
         {
-            DemoToggle.isOn = configMan.IsDemo;
+           configMan.DemoToggle.isOn = configMan.IsDemo;
         }
     }
     public void SetGameId(int id)

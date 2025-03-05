@@ -22,6 +22,7 @@ public class ConfigMan : MonoBehaviour
     public TMP_InputField PlayerIdText;
     public TMP_InputField GameIdText;
     public TMP_InputField ClientIdText;
+    public Toggle DemoToggle;
 
     void Start()
     {

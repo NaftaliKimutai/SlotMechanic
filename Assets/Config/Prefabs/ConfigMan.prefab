@@ -1396,15 +1396,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428b34e1861c4d14290cffcf3a7aff53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ReceivedConfigs: 0
   IsDemo: 0
-  ReceivedCustomerId: 0
-  CustomerId: 
+  PlayerId: 
   GameId: 
   ClientId: 
+  Refresh:
+    m_PersistentCalls:
+      m_Calls: []
   TheDebugObj: {fileID: 1197424381939933970}
   PlayerIdText: {fileID: 2186839038250927185}
   GameIdText: {fileID: 7599855475657984909}
   ClientIdText: {fileID: 2367992027800692163}
+  DemoToggle: {fileID: 5146508981381219761}
 --- !u!1 &4292422701857605050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2053,7 +2057,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TranslationDocument: {fileID: 4900000, guid: e85b6225869714264ac05c83c2a769a0, type: 3}
   ActiveLanguage: 0
-  FileName: DemoGame_Text_DataBase
   All_Game_Text: 
   Data:
   - CODE
